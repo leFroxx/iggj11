@@ -1,0 +1,21 @@
+.progress-outline {
+    width: 100%;
+    margin: 10px 0;
+    border: solid 2px black;
+}
+
+.progress-bar {
+    height: 20px;
+
+    &.moral{
+        background-color: $color-moral;
+    }
+
+    &.wealth{
+        background-color: $color-wealth;
+    }
+
+    &.reputation{
+        background-color: $color-reputation;
+    }
+}

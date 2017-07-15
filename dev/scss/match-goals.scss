@@ -1,0 +1,20 @@
+.goal-list{
+    margin: 30px 0 50px;
+}
+
+.handicap{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 30px;
+    
+    .subheadline{
+        margin-bottom: 20px;
+        align-self: center;
+    }
+
+    p{
+        align-self: flex-end;
+    }
+
+
+}
