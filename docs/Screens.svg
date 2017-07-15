@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6451px" height="2670px" viewBox="0 0 6451 2670" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Screens</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="148" width="1920" height="1080"></rect>
+        <rect id="path-2" x="0" y="0" width="480" height="96"></rect>
+        <rect id="path-3" x="0" y="0" width="480" height="96"></rect>
+        <rect id="path-4" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-5" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-6" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
+        <rect id="path-7" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-8" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-9" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
+        <rect id="path-10" x="417.137474" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-11" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-12" x="664" y="0" width="194.928921" height="262.99466"></rect>
+        <rect id="path-13" x="0" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-14" x="223" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-15" x="446" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-16" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
+        <rect id="path-17" x="75" y="68" width="223" height="18.5312759"></rect>
+        <rect id="path-18" x="141" y="124" width="156.585842" height="18.5312759"></rect>
+        <rect id="path-19" x="48" y="180" width="249.173137" height="18.5312759"></rect>
+        <rect id="path-20" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-21" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
+        <rect id="path-22" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-23" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-24" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
+        <rect id="path-25" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-26" x="664" y="0" width="194.928921" height="262.99466"></rect>
+        <rect id="path-27" x="0" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-28" x="223" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-29" x="446" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-30" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
+        <rect id="path-31" x="75" y="68" width="223" height="18.5312759"></rect>
+        <rect id="path-32" x="141" y="124" width="156.585842" height="18.5312759"></rect>
+        <rect id="path-33" x="48" y="180" width="249.173137" height="18.5312759"></rect>
+        <rect id="path-34" x="359" y="0" width="431.305074" height="581.909193"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TitleScreen" transform="translate(0.000000, 5.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="148.5" width="1919" height="1079"></rect>
+            </g>
+            <g id="Button_Credits" transform="translate(720.000000, 721.000000)">
+                <g id="Rectangle">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="479" height="95"></rect>
+                </g>
+                <text id="Start" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                    <tspan x="172.421875" y="72">Start</tspan>
+                </text>
+            </g>
+            <g id="Button_Start" transform="translate(720.000000, 886.000000)">
+                <g id="Rectangle">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="479" height="95"></rect>
+                </g>
+                <text id="Credits" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                    <tspan x="138.640625" y="72">Credits</tspan>
+                </text>
+            </g>
+            <text id="PageTitle" font-family="Helvetica" font-size="144" font-weight="normal" fill="#000000">
+                <tspan x="541.347656" y="502">Arbeitskampf</tspan>
+            </text>
+            <text id="ScreenName" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="799" y="62">TitleScreen</tspan>
+            </text>
+        </g>
+        <g id="MatchGoalScreen" transform="translate(2296.000000, 0.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="574.53125" y="480">Deine Ziele für diese Partie</tspan>
+            </text>
+            <text id="Goals" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="425" y="779">	• 	500 € Gehaltserhöhung</tspan>
+                <tspan x="425" y="856">	• 	Keine Mitarbeiter entlassen</tspan>
+                <tspan x="425" y="933">	• 	Das Unternehmen in Brand stecken</tspan>
+            </text>
+            <text font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="704" y="62">MatchGoalScreen</tspan>
+            </text>
+        </g>
+        <g id="GameFieldScreen" transform="translate(4531.000000, 5.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <g id="GoalsPanel" transform="translate(52.000000, 153.000000)">
+                <g id="Background">
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.932798" height="147.792857" rx="3"></rect>
+                </g>
+                <text id="Goals" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="20" y="73.7430492">	• 	500 € Gehaltserhöhung</tspan>
+                    <tspan x="20" y="90.7430492">	• 	Keine Mitarbeiter entlassen</tspan>
+                    <tspan x="20" y="107.743049">	• 	Das Unternehmen in Brand stecken</tspan>
+                </text>
+                <text id="PanelTitle" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="20.1445869" y="31.6737226">Ziele</tspan>
+                </text>
+            </g>
+            <g id="Hand" transform="translate(599.000000, 931.000000)">
+                <g id="Card" transform="translate(106.340581, 145.611147) rotate(-20.000000) translate(-106.340581, -145.611147) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <rect stroke="#979797" stroke-width="1" x="31.3114713" y="44.2086051" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card" transform="translate(232.965506, 113.601056) rotate(-10.000000) translate(-232.965506, -113.601056) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <rect stroke="#979797" stroke-width="1" x="157.936397" y="12.1985145" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <rect stroke="#979797" stroke-width="1" x="287.68501" y="1.36000965" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card" transform="translate(492.666583, 113.601056) rotate(10.000000) translate(-492.666583, -113.601056) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <rect stroke="#979797" stroke-width="1" x="417.637474" y="12.1985145" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card" transform="translate(619.789702, 145.611147) rotate(20.000000) translate(-619.789702, -145.611147) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <rect stroke="#979797" stroke-width="1" x="544.760592" y="44.2086051" width="150.05822" height="202.805084"></rect>
+                </g>
+            </g>
+            <g id="GameField" transform="translate(208.000000, 496.000000)">
+                <g id="LastPlayedCard">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <rect stroke="#979797" stroke-width="1" x="664.5" y="0.5" width="193.928921" height="261.99466"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    <rect stroke="#979797" stroke-width="1" x="223.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    <rect stroke="#979797" stroke-width="1" x="446.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+            </g>
+            <g id="ResourcePanel" transform="translate(1569.000000, 975.000000)">
+                <g id="Background" opacity="0">
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-16"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.5117" height="222.951953" rx="3"></rect>
+                </g>
+                <text id="Resources" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="170.229745" y="31.6737226">Ressourcen</tspan>
+                </text>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    <rect stroke="#979797" stroke-width="1" x="75.5" y="68.5" width="222" height="17.5312759"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <rect stroke="#979797" stroke-width="1" x="141.5" y="124.5" width="155.585842" height="17.5312759"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    <rect stroke="#979797" stroke-width="1" x="48.5" y="180.5" width="248.173137" height="17.5312759"></rect>
+                </g>
+            </g>
+            <text font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="704" y="62">GameFieldScreen</tspan>
+            </text>
+            <g id="PhaseDisplay" transform="translate(791.000000, 180.000000)">
+                <path d="M69.5,93.5 L134.806967,93.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M204.5,93.5 L269.806967,93.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="34.5" cy="92.5" r="34.5"></circle>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="169.5" cy="92.5" r="34.5"></circle>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="304.5" cy="91.5" r="34.5"></circle>
+                <text id="Phase" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="118.461914" y="35">Phase</tspan>
+                </text>
+                <text id="Aktuell" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="149.989746" y="160">Aktuell</tspan>
+                </text>
+                <text id="Letzte" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="16.9311523" y="160">Letzte</tspan>
+                </text>
+                <text id="Nächste" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="280.320801" y="160">Nächste</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="GameFieldScreen_CardOverlay" transform="translate(4531.000000, 1437.000000)">
+            <g id="Page" opacity="0.98975317">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-20"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <g id="GoalsPanel" transform="translate(52.000000, 153.000000)">
+                <g id="Background">
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-21"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.932798" height="147.792857" rx="3"></rect>
+                </g>
+                <text id="Goals" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="20" y="73.7430492">	• 	500 € Gehaltserhöhung</tspan>
+                    <tspan x="20" y="90.7430492">	• 	Keine Mitarbeiter entlassen</tspan>
+                    <tspan x="20" y="107.743049">	• 	Das Unternehmen in Brand stecken</tspan>
+                </text>
+                <text id="PanelTitle" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="20.1445869" y="31.6737226">Ziele</tspan>
+                </text>
+            </g>
+            <g id="Hand" transform="translate(599.000000, 931.000000)">
+                <g id="Card" transform="translate(106.340581, 145.611147) rotate(-20.000000) translate(-106.340581, -145.611147) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-22"></use>
+                    <rect stroke="#979797" stroke-width="1" x="31.3114713" y="44.2086051" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card" transform="translate(232.965506, 113.601056) rotate(-10.000000) translate(-232.965506, -113.601056) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-23"></use>
+                    <rect stroke="#979797" stroke-width="1" x="157.936397" y="12.1985145" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
+                    <rect stroke="#979797" stroke-width="1" x="287.68501" y="1.36000965" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card" transform="translate(619.789702, 145.611147) rotate(20.000000) translate(-619.789702, -145.611147) ">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                    <rect stroke="#979797" stroke-width="1" x="544.760592" y="44.2086051" width="150.05822" height="202.805084"></rect>
+                </g>
+            </g>
+            <g id="GameField" transform="translate(208.000000, 496.000000)">
+                <g id="LastPlayedCard">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-26"></use>
+                    <rect stroke="#979797" stroke-width="1" x="664.5" y="0.5" width="193.928921" height="261.99466"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-27"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-28"></use>
+                    <rect stroke="#979797" stroke-width="1" x="223.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+                <g id="Card">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-29"></use>
+                    <rect stroke="#979797" stroke-width="1" x="446.5" y="30.5" width="150.05822" height="202.805084"></rect>
+                </g>
+            </g>
+            <g id="ResourcePanel" transform="translate(1569.000000, 975.000000)">
+                <g id="Background" opacity="0">
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-30"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.5117" height="222.951953" rx="3"></rect>
+                </g>
+                <text id="Resources" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="170.229745" y="31.6737226">Ressourcen</tspan>
+                </text>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-31"></use>
+                    <rect stroke="#979797" stroke-width="1" x="75.5" y="68.5" width="222" height="17.5312759"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-32"></use>
+                    <rect stroke="#979797" stroke-width="1" x="141.5" y="124.5" width="155.585842" height="17.5312759"></rect>
+                </g>
+                <g id="Rectangle-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-33"></use>
+                    <rect stroke="#979797" stroke-width="1" x="48.5" y="180.5" width="248.173137" height="17.5312759"></rect>
+                </g>
+            </g>
+            <text id="GameFieldScreen" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="513.609375" y="62">GameFieldScreen CardOverlay</tspan>
+            </text>
+            <g id="PhaseDisplay" transform="translate(791.000000, 180.000000)">
+                <path d="M69.5,93.5 L134.806967,93.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <path d="M204.5,93.5 L269.806967,93.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="34.5" cy="92.5" r="34.5"></circle>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="169.5" cy="92.5" r="34.5"></circle>
+                <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="304.5" cy="91.5" r="34.5"></circle>
+                <text id="Phase" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="118.461914" y="35">Phase</tspan>
+                </text>
+                <text id="Aktuell" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="149.989746" y="160">Aktuell</tspan>
+                </text>
+                <text id="Letzte" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="16.9311523" y="160">Letzte</tspan>
+                </text>
+                <text id="Nächste" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="280.320801" y="160">Nächste</tspan>
+                </text>
+            </g>
+            <g id="Overlay" transform="translate(0.000000, 153.000000)">
+                <rect fill="#FFFFFF" opacity="0.6" x="0" y="0" width="1920" height="1080"></rect>
+                <g id="FocusedCard" transform="translate(381.000000, 249.000000)">
+                    <g id="Card">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-34"></use>
+                        <rect stroke="#979797" stroke-width="1" x="359.5" y="0.5" width="430.305074" height="580.909193"></rect>
+                    </g>
+                    <g id="ExtendedDescription" transform="translate(0.000000, 44.000000)" fill="#000000">
+                        <rect opacity="0.33" x="0" y="0.12603224" width="358.305074" height="493.455132"></rect>
+                        <text id="Extended-Description" font-family="Helvetica" font-size="36" font-weight="normal">
+                            <tspan x="78" y="214">Extended </tspan>
+                            <tspan x="78" y="257">Description Text</tspan>
+                        </text>
+                    </g>
+                    <text id="Current-Card" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                        <tspan x="455" y="240">Current Card</tspan>
+                    </text>
+                </g>
+                <g id="Buttons" transform="translate(793.000000, 895.000000)">
+                    <g id="ButtonPlay" transform="translate(218.000000, 0.000000)">
+                        <circle id="Button" stroke="#979797" stroke-width="3" cx="58" cy="58" r="58"></circle>
+                        <text id="✓" font-family="LucidaGrande, Lucida Grande" font-size="36" font-weight="normal" fill="#979797">
+                            <tspan x="44" y="72">✓</tspan>
+                        </text>
+                    </g>
+                    <g id="ButtonCancel">
+                        <circle id="Button" stroke="#979797" stroke-width="3" cx="58" cy="58" r="58"></circle>
+                        <text id="✕" font-family="ZapfDingbatsITC, Zapf Dingbats" font-size="36" font-weight="normal" fill="#979797">
+                            <tspan x="44" y="72">✕</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

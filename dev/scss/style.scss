@@ -1,3 +1,9 @@
+// color-scheme
+$color-moral: blue;
+$color-wealth: red;
+$color-reputation: green;
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -34,3 +40,5 @@ body,
 
 @import 'start-screen';
 @import 'credits';
+@import 'progress-bar';
+@import 'match-goals';
