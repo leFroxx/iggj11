@@ -1,11 +1,13 @@
 import StartScreen from '../views/StartScreen.js';
-console.log(StartScreen);
-const defaultState = StartScreen;
+
+const defaultState = {
+    id: StartScreen.id
+};
 export default function (state = defaultState, action) {
     switch (action.type) {
         case 'APP_CHANGE_VIEW':
             return {
-                key: action.data.key
+                id: action.data.id
             }
             break;
     }
