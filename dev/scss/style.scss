@@ -25,15 +25,20 @@ body,
 }
 #app {
 	display: flex;
-	width: 100%;
-	padding: 200px 0;
 	margin: auto;
 	justify-content: center;
 	align-items: center;
+
+	min-width: 1920px;
+	min-height: 1080px;
+	$scale: 1200 / 1920;	// Dev
+	// $scale: 1;	// fullscreen
+	zoom: #{$scale};
 
 	border: 5px solid black;
 }
 
 @import 'start-screen';
+@import 'credits';
 @import 'progress-bar';
 @import 'match-goals';

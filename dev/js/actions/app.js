@@ -9,10 +9,9 @@ export const changeView = (view) => {
     }
 }
 export const initPlayers = () => {
-    const boss = new Player("boss");
-    const worker = new Player("worker");
-    console.log("boss");
-    console.log(boss);
+    const goalsMetric = Player.generateRandomGoals();
+    const boss = new Player("boss", goalsMetric.goalsBoss);
+    const worker = new Player("worker", goalsMetric.goalsWorker);
 
     return {
         type: 'APP_INIT_PLAYERS',
