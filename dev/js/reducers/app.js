@@ -1,8 +1,9 @@
 import StartScreen from '../views/StartScreen.js';
-import { player } from '../models';
 
 const defaultState = {
     activeView: localStorage.getItem('activeView') || StartScreen.id,
+    activePlayer: null,
+    players: [],
 };
 export default function (state = defaultState, action) {
     switch (action.type) {
@@ -20,6 +21,11 @@ export default function (state = defaultState, action) {
                     boss: action.data.boss,
                     worker: action.data.worker
                 }
+            }
+        case 'APP_SET_ACTIVE_PLAYER':
+            return {
+                ...state,
+                activePlayer: action.data.activePlayer
             }
             break;
     }

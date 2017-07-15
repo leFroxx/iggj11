@@ -7,8 +7,12 @@ import {
     MatchGoals,
     Credits
 } from './views';
+import { appActions } from './actions';
 
 class App extends Component {
+    componentWillMount() {
+        this.props.init();
+    }
     render() {
         const {activeViewId} = this.props;
         let activeView = null;
@@ -38,4 +42,12 @@ function mapStateToProps(state) {
    };
 }
 
-export default connect(mapStateToProps)(App);
+function mapDispatchToProps(dispatch) {
+    return {
+        init: () => {
+            dispatch(appActions.initPlayers());
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

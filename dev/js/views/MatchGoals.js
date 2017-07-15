@@ -35,13 +35,13 @@ function mapStateToProps(state) {
 
     return {
         progress: 20,
-        statType: state
+        statType: "moral"
     };
 }
 
 function matchDispatchToProps(dispatch){
     return {
-        gotoStart: () => dispatch(appActions.changeView(StartScreen.id)),
+        gotoStart: () => dispatch(appActions.changeView(StartScreen.id))
     }
 }
 

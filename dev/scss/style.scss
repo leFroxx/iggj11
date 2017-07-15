@@ -22,20 +22,22 @@ body,
 	height: 100%;
 	display: flex;
 	justify-content: center;
+	background: black;
 }
 #app {
+	background: white;
 	display: flex;
 	margin: auto;
 	justify-content: center;
 	align-items: center;
 
 	min-width: 1920px;
-	min-height: 1080px;
+	min-height: calc(1920px / 21 * 9);
 	$scale: 1200 / 1920;	// Dev
 	// $scale: 1;	// fullscreen
 	zoom: #{$scale};
 
-	border: 5px solid black;
+	// border: 100px solid black;
 }
 
 @import 'start-screen';

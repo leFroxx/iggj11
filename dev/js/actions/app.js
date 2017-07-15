@@ -21,3 +21,11 @@ export const initPlayers = () => {
         }
     }
 }
+export const setActivePlayer = (playerType) => {
+    return {
+        type: 'APP_SET_ACTIVE_PLAYER',
+        data: {
+            playerType
+        }
+    }
+}
