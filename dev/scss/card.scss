@@ -54,9 +54,15 @@
         &.attack{
             background-color: $color-card-attack-dark;
         }
+
+        h2{
+            color: white;
+            
+        }
     }
     .circle{
         background-color: white;
+        border-radius: 50%;
     }
 
     .content{
