@@ -1,28 +1,8 @@
-import { common } from '../tools';
-
-// export const n = (x) => {
-//     const i = common.i;
-//     return {
-//         type: x.type,
-//         stats: {
-//             moral: stat.n(x.state.moral),
-//             wealth: stat.n(x.stats.wealth),
-//             reputation: stat.n(x.stats.reputation),
-//         },
-//         goals: {
-//             raise: x.goals.raise,
-//             holiday: x.goals.holiday,
-//             bonus: x.goals.bonus,
-//         },
-//         resources: x.resources,
-//         handicap: stat.n(x.handicap)
-//     }
-// }
+import { config, common } from '../tools';
+import { statTypes } from './Stat';
 
 export default class Player {
-    type;
-
-    constructor(type) {
+    constructor(type, goals) {
         switch (type) {
             case "boss":
             case "worker":
@@ -33,23 +13,69 @@ export default class Player {
         this.type = type;
 
         this.stats = Player.generateRandomStats();
-        this.goals = Player.generateRandomGoals();
+        this.goals = goals;
+    }
+
+    getHandicapedStat() {
+        const handicapedStat = statTypes.map(s => {
+            const stat = this.stats[s];
+            if (stat == config.statHandicapedValue) {
+                return s;
+            } else {
+                return null;
+            }
+        }).filter(s => s != null)[0];
+
+        if (handicapedStat == null) {
+            console.error("No handicaped stat found" + JSON.stringify(this.stats));
+        }
+
+        return handicapedStat;
     }
 }
 
 /* utils */
 Player.generateRandomStats = () => {
+    const handicapedStat = Array.getRandom(statTypes);
     return {
-        moral: 0,
-        wealth: 0,
-        reputation: 0
+        moral: config.statMaxValue,
+        wealth: config.statMaxValue,
+        reputation: config.statMaxValue,
+        [handicapedStat]: config.statHandicapedValue
     };
 }
 
 Player.generateRandomGoals = () => {
+    const {
+        goalRaiseMinValue,
+        goalRaiseMaxValue,
+        goalRaiseMinDiff,
+        goalRaiseMaxDiff,
+        goalWealthMinValue,
+        goalWealthMaxValue,
+        goalWealthMinDiff,
+        goalWealthMaxDiff,
+        goalReputationMinValue,
+        goalReputationMaxValue,
+        goalReputationMinDiff,
+        goalReputationMaxDiff
+    } = config;
+    const raiseMetric = common.randomWithDiff(goalRaiseMinValue, goalRaiseMaxValue, goalRaiseMinDiff, goalRaiseMaxDiff);
+    const wealthMetric = common.randomWithDiff(goalWealthMinValue, goalWealthMaxValue, goalWealthMinDiff, goalWealthMaxDiff);
+    const reputationMetric = common.randomWithDiff(goalReputationMinValue, goalReputationMaxValue, goalReputationMinDiff, goalReputationMaxDiff);
+    const goalsBoss = {
+        raise: raiseMetric[0],
+        wealth: wealthMetric[0],
+        reputation: reputationMetric[0],
+    }
+    const goalsWorker = {
+        raise: raiseMetric[1],
+        wealth: wealthMetric[1],
+        reputation: reputationMetric[1],
+    }
+
     return {
-        raise: 0,
-        holiday: 0,
-        bonus: 0
+        goalsBoss,
+        goalsWorker
     };
 }
