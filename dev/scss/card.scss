@@ -1,0 +1,71 @@
+.card{
+    width: 256px;
+    height: 368px;
+    padding: 14px;
+    
+    &.approvement{
+        background-color: $color-card-aprovement-light;
+    }
+
+    &.offer_main{
+        background-color: $color-card-offer-main-light;
+    }
+
+    &.offer_secondary{
+        background-color: $color-card-offer-sec-light;
+    }
+
+    &.agreement{
+        background-color: $color-card-default-light;
+    }
+
+    &.declinement{
+        background-color: $color-card-attack-light;
+    }
+
+    &.attack{
+        background-color: $color-card-attack-light;
+    }
+    
+    .header{
+        width: 228px;
+        height: 142px;
+        
+        &.approvement{
+            background-color: $color-card-aprovement-dark;
+        }
+
+        &.offer_main{
+            background-color: $color-card-offer-main-dark;
+        }
+
+        &.offer_secondary{
+            background-color: $color-card-offer-sec-dark;
+        }
+
+        &.agreement{
+            background-color: $color-card-default-dark;
+        }
+
+        &.declinement{
+            background-color: $color-card-attack-dark;
+        }
+
+        &.attack{
+            background-color: $color-card-attack-dark;
+        }
+    }
+    .circle{
+        background-color: white;
+    }
+
+    .content{
+        width: 228px;
+        height: 214px;
+    }
+
+    .icon{
+
+    }
+    
+}
