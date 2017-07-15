@@ -2,11 +2,12 @@ import StartScreen from '../views/StartScreen.js';
 import { player } from '../models';
 
 const defaultState = {
-    activeView: StartScreen.id
+    activeView: localStorage.getItem('activeView') || StartScreen.id,
 };
 export default function (state = defaultState, action) {
     switch (action.type) {
         case 'APP_CHANGE_VIEW':
+            localStorage.setItem('activeView', action.data.view);
             return {
                 ...state,
                 activeView: action.data.view

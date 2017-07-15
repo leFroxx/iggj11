@@ -1,0 +1,45 @@
+.credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-bottom: 50px
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 50px;
+    }
+
+    li {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 5px 20px;
+    }
+
+    li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    li.game-designer {
+        background-color: red;
+    }
+    li.game-designer:after {
+        content: " - Game Designer";
+    }
+    li.development {
+        background-color: blue;
+    }
+    li.development:after {
+        content: " - Development";
+    }
+    li.graphic-artist {
+        background-color: green;
+    }
+    li.graphic-artist:after {
+        content: " - Graphic Artist";
+    }
+}

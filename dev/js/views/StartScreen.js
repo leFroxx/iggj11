@@ -1,18 +1,21 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import { MatchGoals } from '.';
+import {
+    MatchGoals,
+    Credits
+} from '.';
 import { appActions } from '../actions';
 
 class StartScreen extends Component {
     render() {
-        const { gotoMatchGoals } = this.props;
+        const { gotoMatchGoals, gotoCredits } = this.props;
         return (
             <div className="start-screen">
                 <h1>Arbeitskampf</h1>
                 <div className="buttons">
                     <button onClick={gotoMatchGoals}>Start</button>
-                    <button>Credits</button>
+                    <button onClick={gotoCredits}>Credits</button>
                 </div>
             </div>
         )
@@ -31,6 +34,7 @@ function matchDispatchToProps(dispatch){
             dispatch(appActions.initPlayers());
             dispatch(appActions.changeView(MatchGoals.id));
         },
+        gotoCredits: () => dispatch(appActions.changeView(Credits.id))
     }
 }
 

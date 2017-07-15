@@ -4,7 +4,8 @@ require('../scss/style.scss');
 
 import {
     StartScreen,
-    MatchGoals
+    MatchGoals,
+    Credits
 } from './views';
 
 class App extends Component {
@@ -17,6 +18,9 @@ class App extends Component {
                 break;
             case MatchGoals.id:
                 activeView = <MatchGoals />
+                break;
+            case Credits.id:
+                activeView = <Credits />
                 break;
             default:
         }
