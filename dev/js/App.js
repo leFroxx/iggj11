@@ -2,29 +2,36 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 require('../scss/style.scss');
 
-import {appActions} from './actions';
+import {
+    StartScreen,
+    MatchGoals
+} from './views';
 
 class App extends Component {
     render() {
+        const {activeViewId} = this.props;
+        let activeView = null;
+        switch (activeViewId) {
+            case StartScreen.id:
+                activeView = <StartScreen />
+                break;
+            case MatchGoals.id:
+                activeView = <MatchGoals />
+                break;
+            default:
+        }
         return (
             <div id="app">
-                {this.props.activeView}
+                {activeView}
             </div>
         );
     }
 }
 
-function mapStateToDispatch(dispatch) {
-    console.log(appActions);
-    return {
-        // changeView: appActions.changeView(2)
-    }
-}
-
 function mapStateToProps(state) {
    return {
-       activeView: state.activeView
+       activeViewId: state.activeView.id
    };
 }
 
-export default connect(mapStateToDispatch, mapStateToProps)(App);
+export default connect(mapStateToProps)(App);
