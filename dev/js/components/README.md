@@ -1,3 +1,7 @@
+## Components
+Components are just PARTS of a view - like buttons or textfields.
+Views - or scenes - on the other hand are full screens.
+
 ## Containers vs. Components
 
 Containers are very similar to components, the only difference is that containers are aware of application state. If
