@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import activeView from './reducer-active-view';
+import app from './app';
 
 /*
  * We combine all reducers into a single object before updated data is dispatched (sent) to store
@@ -7,7 +7,7 @@ import activeView from './reducer-active-view';
  * */
 
 const allReducers = combineReducers({
-    activeView,
+    app,
 });
 
 export default allReducers

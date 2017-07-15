@@ -8,10 +8,12 @@ class StartScreen extends Component {
     render() {
         const { gotoMatchGoals } = this.props;
         return (
-            <div>
+            <div className="start-screen">
                 <h1>Arbeitskampf</h1>
-                <button onClick={gotoMatchGoals}>Start</button>
-                <button>Credits</button>
+                <div className="buttons">
+                    <button onClick={gotoMatchGoals}>Start</button>
+                    <button>Credits</button>
+                </div>
             </div>
         )
     }
@@ -25,7 +27,10 @@ function mapStateToProps(state) {
 
 function matchDispatchToProps(dispatch){
     return {
-        gotoMatchGoals: () => dispatch(appActions.changeView(MatchGoals.id)),
+        gotoMatchGoals: () => {
+            dispatch(appActions.initPlayers());
+            dispatch(appActions.changeView(MatchGoals.id));
+        },
     }
 }
 
