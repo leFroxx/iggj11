@@ -1,0 +1,35 @@
+Öffentlichkeitsarbeit: 		Angriff 20 Reputation
+							Schwäche Moral
+						
+Leiharbeiter einstellen:	Angriff 20 Finance
+							Schwäche Reputation
+
+Aussperrung:				Angriff 20 Moral
+							Schwäche Finance							
+							
+Personalabbau androhen		Angriff 10 Moral
+							Schwäche null
+							Bedingung: kann nur einmal gespielt werden
+							
+Entlassungen				Angriff 10 Moral 10 Finance
+							Schwäche Reputation
+							Bedingung: Personalabbau muss bereits gespielt worden sein
+							
+Nicht-streikende Mitarbeiter bevorzugen		Angriff 10 Moral 10 Reputation
+											Schwäche Finance
+											
+Streikverzicht				Angriff 10 Reputation
+
+Warnstreik					Angriff 20 Moral
+							Schwäche Finance
+							
+Schwerpunktstreik			Angriff 20 Finance
+							Schwäche Reputation
+				
+Flächenstreik				Angriff 10 Finance 10 Moral
+							Schwäche Finance
+				
+Sympathiestreik				Angriff 10 Moral 10 Reputation
+							Schwäche Reputation
+							
+Verhandlung für gescheitert erklären	Angriff 10 Moral							
