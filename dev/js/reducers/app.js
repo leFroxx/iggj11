@@ -3,6 +3,7 @@ import StartScreen from '../views/StartScreen.js';
 const defaultState = {
     activeView: StartScreen.id,
     // activeView: localStorage.getItem('activeView') || StartScreen.id,
+    viewHistory: [StartScreen.id],
     activePlayer: null,
 };
 export default function (state = defaultState, action) {
@@ -11,7 +12,8 @@ export default function (state = defaultState, action) {
             localStorage.setItem('activeView', action.data.view);
             return {
                 ...state,
-                activeView: action.data.view
+                activeView: action.data.view,
+                viewHistory: state.viewHistory.concat(action.data.view)
             }
             break;
         case 'APP_SET_ACTIVE_PLAYER':

@@ -19,12 +19,6 @@ class Credits extends Component {
                     <li className="graphic-artist">Julius Walther</li>
                 </ul>
                 <button onClick={goBack}>Zurück</button>
-                <CardComponent type={"declinement"} />
-                <CardComponent type={"attack_9"} />
-                <CardComponent type={"agreement"} />
-                <CardComponent type={"offer_raise"} />
-                <CardComponent type={"declinement"} />
-                <CardComponent type={"offer_bonus"} />
             </div>
         )
     }

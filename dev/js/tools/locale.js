@@ -1,5 +1,5 @@
 export default (key, params = {}) => {
-    let localized = dictionary[key];
+    let localized = dictionary[key] || "[" + key + JSON.stringify(params) + "]";
 
     // insert params
     Object.forEach(params, (k, v) => {

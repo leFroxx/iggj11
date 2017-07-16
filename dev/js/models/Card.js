@@ -50,7 +50,6 @@ export default class Card {
             case "declinement":
                 return "declinement";
             case "attack_1":
-                return "attack";
             case "attack_2":
             case "attack_3":
             case "attack_4":

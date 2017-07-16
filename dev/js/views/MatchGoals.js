@@ -3,8 +3,7 @@ import {connect} from 'react-redux';
 
 import {
     StartScreen,
-    PlayerChange,
-    MatchNegotiation
+    PlayerChange
 } from '.';
 import { appActions } from '../actions';
 import { ProgressBar } from '../components';
@@ -65,8 +64,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch){
     return {
         gotoStart: () => appActions.changeView(dispatch)(StartScreen.id),
-        // gotoNextView: () => appActions.changeView(dispatch)(PlayerChange.id)
-        gotoNextView: () => appActions.changeView(dispatch)(MatchNegotiation.id)
+        gotoNextView: () => appActions.changeView(dispatch)(PlayerChange.id)
     }
 }
 
