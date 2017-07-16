@@ -8,8 +8,7 @@ import { appActions } from '../actions';
 
 class CardContent extends Component {
     render() {
-        const { model } = this.props;
-        const category = model.getCategory();
+        const { model, category } = this.props;
 
         let renderedContent;
         switch (category) {
