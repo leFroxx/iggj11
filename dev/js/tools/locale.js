@@ -26,5 +26,8 @@ const dictionary = {
     "card_offer_holiday_description": "",
     "card_offer_bonus_description": "",
     "card_declinement_description": "",
-    "card_attack_description": ""
+    "card_attack_description": "",
+    "stat_moral": "Moral",
+    "stat_wealth": "Vermögen",
+    "stat_reputation": "Ansehen",
 }

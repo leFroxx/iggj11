@@ -34,6 +34,15 @@ export default class Player {
     }
 }
 
+const playerTypes = [
+    "boss",
+    "worker"
+];
+
+export {
+    playerTypes
+}
+
 /* utils */
 Player.generateRandomStats = () => {
     const handicapedStat = Array.getRandom(statTypes);

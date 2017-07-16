@@ -1,31 +1,51 @@
-import { Player } from '../models';
+import { Player, playerTypes } from '../models';
+import { MatchGoals } from '../views';
 
-export const changeView = (view) => {
-    return {
-        type: 'APP_CHANGE_VIEW',
-        data: {
-            view
-        }
+export const changeView = (dispatch) => {
+    return (view) => {
+        dispatch({
+            type: 'APP_SET_ACTIVE_VIEW',
+            data: {
+                view
+            }
+        });
     }
 }
-export const initPlayers = () => {
-    const goalsMetric = Player.generateRandomGoals();
-    const boss = new Player("boss", goalsMetric.goalsBoss);
-    const worker = new Player("worker", goalsMetric.goalsWorker);
-
-    return {
-        type: 'APP_INIT_PLAYERS',
-        data: {
-            boss,
-            worker
-        }
+export const setActivePlayer = (dispatch) => {
+    return (playerType) => {
+        dispatch({
+            type: 'APP_SET_ACTIVE_PLAYER',
+            data: {
+                playerType
+            }
+        });
     }
 }
-export const setActivePlayer = (playerType) => {
-    return {
-        type: 'APP_SET_ACTIVE_PLAYER',
-        data: {
-            playerType
-        }
-    }
+export const setNextPlayerActive = (dispatch) => {
+    return dispatch((dispatch, getState) => {
+        return () => {
+            const state = getState();
+            const currentlyActivePlayer = state.app.activePlayer;
+            const currentPlayerIndex = playerTypes.indexOf(currentlyActivePlayer);
+
+            let nextPlayerIndex;
+            if (
+                currentPlayerIndex == -1    // currentlyActivePlayer invalid or null
+                || currentPlayerIndex >= playerTypes.length // currentlyActivePlayer is the last one in the array
+            ) {
+                nextPlayerIndex = 0;
+            } else {
+                // following entry in array becomes next active player
+                nextPlayerIndex = playerTypes.indexOf(currentlyActivePlayer) + 1;
+                if (nextPlayerIndex >= playerTypes.length) {
+                    nextPlayerIndex = 0;
+                }
+            }
+            const playerType = playerTypes[nextPlayerIndex];
+
+            console.log(currentlyActivePlayer);
+
+            return setActivePlayer(dispatch)(playerType);
+        };
+    });
 }

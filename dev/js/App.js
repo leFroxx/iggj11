@@ -7,7 +7,7 @@ import {
     MatchGoals,
     Credits
 } from './views';
-import { appActions } from './actions';
+import { playerActions } from './actions';
 
 class App extends Component {
     componentWillMount() {
@@ -45,7 +45,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         init: () => {
-            dispatch(appActions.initPlayers());
+            playerActions.initPlayers(dispatch)();
         }
     }
 }

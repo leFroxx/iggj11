@@ -21,7 +21,7 @@ function mapStateToProps(state) {
     };
 }
 
-function matchDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch){
     return {
         gotoMatchGoals: () => {
             dispatch(appActions.initPlayers());
@@ -30,4 +30,4 @@ function matchDispatchToProps(dispatch){
     }
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(ProgressBar);
+export default connect(mapStateToProps, mapDispatchToProps)(ProgressBar);
