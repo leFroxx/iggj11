@@ -87,20 +87,39 @@ export default class Card {
     }
 
     isAttackType() {
-        return (this.type.indexOf("attack") != -1);
+        return this.getCategory() == "attack";
+    }
+
+    getAttackId() {
+        if (!this.isAttackType()) {
+            console.error("Cards of this type don't have an attackId - " + this.type);
+            return null;
+        }
+        return parseInt(this.type.substr("attack_".length));
     }
 
     getDamage() {
-        const stats = {
+        if (!this.isAttackType()) {
+            console.error("Cards of this type do not occure any damage - " + this.type);
+            return null;
+        }
+        const attackId = this.getAttackId();
+        const configKey = "attack" + attackId + "Damage";
+        const emptyStats = {
             "moral": 0,
             "wealth": 0,
             "reputation": 0
         };
+        const stats = {
+            ...emptyStats,
+            ...config[configKey]
+        }
+
+        return stats;
     }
 
     isUsableBy(playerType) {
-        console.log(playerType);
-        if (!this.type.indexOf("attack_") == 0) {
+        if (!isAttackType()) {
             return false;
         }
 

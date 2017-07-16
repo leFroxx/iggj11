@@ -28,10 +28,10 @@ function mapStateToProps(state) {
     };
 }
 
-function matchDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch){
     return {
-        goBack: () => dispatch(appActions.changeView(StartScreen.id)),
+        goBack: () => appActions.changeView(dispatch)(StartScreen.id),
     }
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(Credits);
+export default connect(mapStateToProps, mapDispatchToProps)(Credits);

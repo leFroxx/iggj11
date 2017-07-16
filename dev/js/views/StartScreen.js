@@ -28,13 +28,11 @@ function mapStateToProps(state) {
     };
 }
 
-function matchDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch, getState, c){
     return {
-        gotoMatchGoals: () => {
-            dispatch(appActions.changeView(MatchGoals.id));
-        },
-        gotoCredits: () => dispatch(appActions.changeView(Credits.id))
+        gotoMatchGoals: () => appActions.changeView(dispatch)(MatchGoals.id),
+        gotoCredits: () => appActions.changeView(dispatch)(Credits.id)
     }
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(StartScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(StartScreen);

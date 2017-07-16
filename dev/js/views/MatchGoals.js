@@ -4,10 +4,21 @@ import {connect} from 'react-redux';
 import { StartScreen } from '.';
 import { appActions } from '../actions';
 import { ProgressBar } from '../components';
+import { config, l } from '../tools';
 
 class MatchGoals extends Component {
+    componentWillMount() {
+        this.props.setNextPlayerActive();
+    }
     render() {
-        const { gotoStart, progress, statType } = this.props;
+        const { gotoStart, statType, progress } = this.props;
+
+        const { statMaxValue, statHandicapedValue } = config;
+        const handicapValue = statMaxValue - statHandicapedValue;
+        const handicapPercentage = statMaxValue > 0 ? 100 / statMaxValue * handicapValue : 0;
+
+        const statName = l("stat_" + statType);
+        console.log(statType);
 
         return (
             <div>
@@ -19,7 +30,11 @@ class MatchGoals extends Component {
                 </ul>
                 <div className="handicap">
                     <h2 className="subheadline">Handicap</h2>
-                    <p>25% Moral</p>
+                    {statName ?
+                        <p>{handicapPercentage}% {statName}</p>
+                    :
+                        null
+                    }
                     <ProgressBar progress={progress} statType={statType} />
                 </div>
                 <button onClick={gotoStart}>Zurück</button>
@@ -30,19 +45,30 @@ class MatchGoals extends Component {
 MatchGoals.id = "match_goals";
 
 function mapStateToProps(state) {
-    const playerType = "boss";
-    const stats = state.app.players[playerType].stats;
+    const playerType = state.app.activePlayer;
+    console.log("players");
+    console.log(state);
+    console.log(playerType);
+    console.log(state.players);
+    console.log(player);
+    console.log(statType);
+    console.log(progress);
+    const player = playerType != null ? state.players[playerType] : null;
+
+    const statType = player != null ? player.getHandicapedStat() : null;
+    const progress = statType != null ? state.players[playerType][statType] : null;
 
     return {
-        progress: 20,
-        statType: "moral"
+        statType,
+        progress
     };
 }
 
-function matchDispatchToProps(dispatch){
+function mapDispatchToProps(dispatch){
     return {
-        gotoStart: () => dispatch(appActions.changeView(StartScreen.id))
+        gotoStart: () => appActions.changeView(dispatch)(StartScreen.id),
+        setNextPlayerActive: () => appActions.setNextPlayerActive(dispatch)()
     }
 }
 
-export default connect(mapStateToProps, matchDispatchToProps)(MatchGoals);
+export default connect(mapStateToProps, mapDispatchToProps)(MatchGoals);
