@@ -9,7 +9,7 @@
     &.highlight {
 
     }
-    
+
     &.agreement{
         background-color: $color-card-aprovement-light;
     }
@@ -30,12 +30,12 @@
     &.attack{
         background-color: $color-card-attack-light;
     }
-    
+
     .header{
         width: 228px;
         height: 142px;
         border-radius: 3px;
-        
+
         &.agreement{
             background-color: $color-card-aprovement-dark;
         }
@@ -63,9 +63,9 @@
             justify-content: center;
             align-items: center;
             padding: 14px;
-            font-size: 30px; 
+            font-size: 30px;
             color: white;
-            
+            text-align: center;
         }
     }
     .circle{
@@ -112,5 +112,5 @@
     .icon{
 
     }
-    
+
 }

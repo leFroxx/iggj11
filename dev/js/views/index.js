@@ -5,3 +5,4 @@ export { default as MatchGoals} from './MatchGoals';
 export { default as Match} from './Match';
 export { default as MatchNegotiation} from './MatchNegotiation';
 export { default as MatchDispute} from './MatchDispute';
+export { default as CardOverview} from './CardOverview';

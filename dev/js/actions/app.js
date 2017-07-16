@@ -2,11 +2,12 @@ import { Player, playerTypes } from '../models';
 import { MatchGoals } from '../views';
 
 export const changeView = (dispatch) => {
-    return (view) => {
+    return (view, params) => {
         dispatch({
             type: 'APP_SET_ACTIVE_VIEW',
             data: {
-                view
+                view,
+                params
             }
         });
     }
