@@ -1,5 +1,11 @@
 .player-change {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     h1 {
+        margin-bottom: 50px;
+
         > span {
             font-size: inherit;
 
@@ -10,5 +16,10 @@
                 color: $color-worker;
             }
         }
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
     }
 }

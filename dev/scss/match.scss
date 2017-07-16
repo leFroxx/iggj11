@@ -11,10 +11,18 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 50px;
+        height: 368px;
 
         .card:not(:last-child) {
             margin-right: 20px;
+        }
+
+        &.card-history {
+            zoom: 0.8;
+        }
+
+        &.playable-cards {
+            margin-top: 50px;
         }
     }
 }
