@@ -31,7 +31,6 @@ function mapStateToProps(state) {
 function matchDispatchToProps(dispatch){
     return {
         gotoMatchGoals: () => {
-            dispatch(appActions.initPlayers());
             dispatch(appActions.changeView(MatchGoals.id));
         },
         gotoCredits: () => dispatch(appActions.changeView(Credits.id))

@@ -32,8 +32,10 @@ body,
 	height: 100%;
 	display: flex;
 	justify-content: center;
+	background: black;
 }
 #app {
+	background: white;
 	display: flex;
 	width: 100%;
 	padding: 200px 0;
@@ -41,7 +43,11 @@ body,
 	justify-content: center;
 	align-items: center;
 
-	border: 5px solid black;
+	min-width: 1920px;
+	min-height: calc(1920px / 21 * 9);
+	$scale: 1200 / 1920;	// Dev
+	// $scale: 1;	// fullscreen
+	zoom: #{$scale};
 }
 
 @import 'start-screen';

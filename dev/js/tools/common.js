@@ -33,3 +33,12 @@ Array.getRandom = (array) => {
     }
     return array[randomInt(array.length-1)];
 }
+
+/* Object */
+Object.forEach = (object, func) => {
+    for (var key in object) {
+        if (object.hasOwnProperty(key)) {
+            func(key, object[key]);
+        }
+    }
+}
