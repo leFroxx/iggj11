@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import { CardContent } from '.';
 import { appActions } from '../actions';
 
 
@@ -10,24 +9,22 @@ class Card extends Component {
         const { category, title, icon } = this.props;
 
         return (
-            <div className={"card" + category}>
-                <div className={"header" + category}>
-                    <div>
-                        <h2>{title}</h2>
+            <div className={`card ${category}`}>
+                <div className={`header ${category}`}>
+                    <div className="title">
+                        {title}
                     </div>
                     <div className="circle"></div>
                 </div>
+                <div className={`circle ${category}`}></div>
                 <div className="content">
-                    <CardContent />
+                    {/* <CardContent /> */}
                 </div>
                 <div className="icon">
                     {icon}
                 </div>
             </div>
         )
-            <div className="progress-outline">
-                <div className={"progress-bar " + statType} style={ {width: progress + "%"} }></div>
-            </div>
     }
 }
 

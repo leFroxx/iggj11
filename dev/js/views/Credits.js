@@ -2,11 +2,15 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import { StartScreen } from '.';
+import CardComponent from '../components/Card';
+import CardData from '../models/Card';
 import { appActions } from '../actions';
 
 class Credits extends Component {
     render() {
         const { goBack } = this.props;
+        const cardData = new CardData("attack_1");
+
         return (
             <div className="credits">
                 <h1>Credits</h1>
@@ -17,6 +21,7 @@ class Credits extends Component {
                     <li className="graphic-artist">Julius Walther</li>
                 </ul>
                 <button onClick={goBack}>Zurück</button>
+                <CardComponent category={cardData.getCategory()} title="Entlassung" />
             </div>
         )
     }

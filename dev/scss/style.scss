@@ -45,8 +45,8 @@ body,
 
 	min-width: 1920px;
 	min-height: calc(1920px / 21 * 9);
-	$scale: 1200 / 1920;	// Dev
-	// $scale: 1;	// fullscreen
+	// $scale: 1200 / 1920;	// Dev
+	$scale: 1;	// fullscreen
 	zoom: #{$scale};
 }
 
