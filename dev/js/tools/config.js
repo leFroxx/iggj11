@@ -22,10 +22,11 @@ export const bossAttacks = [
     2,
     3,
     4,
-    5
+    5,
+	6
 ];
 export const workerAttacks = [
-    6,
+    1,
     7,
     8,
     9,
@@ -35,30 +36,41 @@ export const workerAttacks = [
 
 /* Attacks' damage to the depending stat */
 export const attack1Damage = {
-    moral: 10
+    reputation: 20
 }
 export const attack2Damage = {
-    wealth: 20,
+    wealth: 20
 }
 export const attack3Damage = {
-    moral: 10,
-    reputation: 10
+    moral: 20
 }
 export const attack4Damage = {
+	moral: 10
 }
 export const attack5Damage = {
+	moral: 10,
+    waelth: 10
 }
 export const attack6Damage = {
+	moral: 10,
+    reputation: 10
 }
 export const attack7Damage = {
+    reputation: 10
 }
 export const attack8Damage = {
+	moral: 20
 }
 export const attack9Damage = {
+    wealth: 20
 }
 export const attack10Damage = {
+	moral: 10,
+    wealth: 10
 }
 export const attack11Damage = {
+	moral: 10,
+    reputation: 10
 }
 
 /* The stats (from 0 up to all 3) that are weakened during the oppoent's following turn by using an attack
@@ -67,28 +79,30 @@ export const attack1WeakenedStat = [
     "moral"
 ]
 export const attack2WeakenedStat = [
-    "wealth"
+    "reputation"
 ]
 export const attack3WeakenedStat = [
-    "moral",
-    "reputation"
+    "wealth"
 ]
 export const attack4WeakenedStat = [
 ]
 export const attack5WeakenedStat = [
-    "moral",
-    "wealth",
     "reputation"
 ]
 export const attack6WeakenedStat = [
+    "wealth"
 ]
 export const attack7WeakenedStat = [
 ]
 export const attack8WeakenedStat = [
+    "wealth"
 ]
 export const attack9WeakenedStat = [
+    "reputation"
 ]
 export const attack10WeakenedStat = [
+    "wealth"
 ]
 export const attack11WeakenedStat = [
+    "reputation"
 ]
