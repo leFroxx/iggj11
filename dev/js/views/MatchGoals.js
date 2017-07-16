@@ -1,17 +1,21 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import { StartScreen } from '.';
+import {
+    StartScreen,
+    PlayerChange,
+    MatchNegotiation
+} from '.';
 import { appActions } from '../actions';
 import { ProgressBar } from '../components';
 import { config, l } from '../tools';
 
 class MatchGoals extends Component {
     componentWillMount() {
-        this.props.setNextPlayerActive();
+        // this.props.setNextPlayerActive();
     }
     render() {
-        const { gotoStart, statType, progress } = this.props;
+        const { gotoStart, gotoNextView, statType, progress } = this.props;
 
         const { statMaxValue, statHandicapedValue } = config;
         const handicapValue = statMaxValue - statHandicapedValue;
@@ -37,6 +41,7 @@ class MatchGoals extends Component {
                     }
                     <ProgressBar progress={progress} statType={statType} />
                 </div>
+                <button onClick={gotoNextView}>Weiter</button>
                 <button onClick={gotoStart}>Zurück</button>
             </div>
         )
@@ -46,17 +51,10 @@ MatchGoals.id = "match_goals";
 
 function mapStateToProps(state) {
     const playerType = state.app.activePlayer;
-    console.log("players");
-    console.log(state);
-    console.log(playerType);
-    console.log(state.players);
-    console.log(player);
-    console.log(statType);
-    console.log(progress);
     const player = playerType != null ? state.players[playerType] : null;
 
     const statType = player != null ? player.getHandicapedStat() : null;
-    const progress = statType != null ? state.players[playerType][statType] : null;
+    const progress = statType != null ? state.players[playerType].stats[statType] : null;
 
     return {
         statType,
@@ -67,7 +65,8 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch){
     return {
         gotoStart: () => appActions.changeView(dispatch)(StartScreen.id),
-        setNextPlayerActive: () => appActions.setNextPlayerActive(dispatch)()
+        // gotoNextView: () => appActions.changeView(dispatch)(PlayerChange.id)
+        gotoNextView: () => appActions.changeView(dispatch)(MatchNegotiation.id)
     }
 }
 

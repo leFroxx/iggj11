@@ -1,0 +1,14 @@
+.player-change {
+    h1 {
+        > span {
+            font-size: inherit;
+
+            &.boss {
+                color: $color-boss;
+            }
+            &.worker {
+                color: $color-worker;
+            }
+        }
+    }
+}

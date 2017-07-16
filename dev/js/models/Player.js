@@ -1,6 +1,11 @@
 import { config, common } from '../tools';
 import { statTypes } from './Stat';
 
+// import {
+//     MatchNegotiation,
+//     MatchDispute
+// } from '../views';
+
 export default class Player {
     constructor(type, goals) {
         switch (type) {
@@ -31,6 +36,33 @@ export default class Player {
         }
 
         return handicapedStat;
+    }
+
+    getUsableCards(phaseType) {
+        let usableCards = [];
+        switch (phaseType) {
+            case "negotiation":
+                usableCards = [
+                    "agreement",
+                    "offer_raise",
+                    "offer_holiday",
+                    "offer_bonus",
+                    "declinement"
+                ];
+                break;
+            case "dispute":
+                const configAttacksKey = this.type + "Attacks";
+                const attacks = config[configAttacksKey].map(id => "attack_" + id);
+                usableCards = attacks.concat([
+                    "negotiation"
+                ]);
+                break;
+            default:
+                console.error("No cards usable because not in the match view");
+                return
+        }
+
+        return usableCards
     }
 }
 

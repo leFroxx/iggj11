@@ -1,5 +1,7 @@
 import { l, config } from '../tools';
 
+import { Match } from '../views';
+
 export default class Card {
     constructor(type) {
         if (!cardTypes.includes(type)) {

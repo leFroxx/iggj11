@@ -1,4 +1,7 @@
 // color-scheme
+$color-boss: #f70;
+$color-worker: blue;
+
 $color-moral: blue;
 $color-wealth: red;
 $color-reputation: green;
@@ -50,8 +53,12 @@ body,
 	zoom: #{$scale};
 }
 
+/* views */
 @import 'start-screen';
-@import 'progress-bar';
-@import 'match-goals';
 @import 'credits';
+@import 'player-change';
+@import 'match-goals';
+
+/* components */
+@import 'progress-bar';
 @import 'card';

@@ -30,4 +30,8 @@ const dictionary = {
     "stat_moral": "Moral",
     "stat_wealth": "Vermögen",
     "stat_reputation": "Ansehen",
+    "player_boss": "Arbeitgeber",
+    "player_worker": "Arbeitnehmer",
+    "phase_negotiation": "Verhandlungsphase",
+    "phase_dispute": "Arbeitskampfphase"
 }
