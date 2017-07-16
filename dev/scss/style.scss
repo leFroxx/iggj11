@@ -3,6 +3,16 @@ $color-moral: blue;
 $color-wealth: red;
 $color-reputation: green;
 
+$color-card-attack-light: #FF494F;
+$color-card-attack-dark: #D84E52;
+$color-card-offer-main-light: #25D7FC;
+$color-card-offer-main-dark: #1986DA;
+$color-card-offer-sec-light: #44E6E4;
+$color-card-offer-sec-dark: #00CCCA;
+$color-card-aprovement-light: #F9DCA5;
+$color-card-aprovement-dark: #EFCE91;
+$color-card-default-light: #F4F4F4;
+$color-card-default-dark: #D9D9D9;
 
 * {
 	margin: 0;
@@ -25,20 +35,16 @@ body,
 }
 #app {
 	display: flex;
+	width: 100%;
+	padding: 200px 0;
 	margin: auto;
 	justify-content: center;
 	align-items: center;
-
-	min-width: 1920px;
-	min-height: 1080px;
-	$scale: 1200 / 1920;	// Dev
-	// $scale: 1;	// fullscreen
-	zoom: #{$scale};
 
 	border: 5px solid black;
 }
 
 @import 'start-screen';
-@import 'credits';
 @import 'progress-bar';
 @import 'match-goals';
+@import 'card';
