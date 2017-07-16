@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="6451px" height="2670px" viewBox="0 0 6451 2670" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="13118px" height="2670px" viewBox="0 0 13118 2670" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
     <title>Screens</title>
     <desc>Created with Sketch.</desc>
@@ -8,36 +8,55 @@
         <rect id="path-2" x="0" y="0" width="480" height="96"></rect>
         <rect id="path-3" x="0" y="0" width="480" height="96"></rect>
         <rect id="path-4" x="0" y="153" width="1920" height="1080"></rect>
-        <rect id="path-5" x="0" y="153" width="1920" height="1080"></rect>
-        <rect id="path-6" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
-        <rect id="path-7" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
-        <rect id="path-8" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
-        <rect id="path-9" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
-        <rect id="path-10" x="417.137474" y="11.6985145" width="151.05822" height="203.805084"></rect>
-        <rect id="path-11" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
-        <rect id="path-12" x="664" y="0" width="194.928921" height="262.99466"></rect>
-        <rect id="path-13" x="0" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-14" x="223" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-15" x="446" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-16" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
-        <rect id="path-17" x="75" y="68" width="223" height="18.5312759"></rect>
-        <rect id="path-18" x="141" y="124" width="156.585842" height="18.5312759"></rect>
-        <rect id="path-19" x="48" y="180" width="249.173137" height="18.5312759"></rect>
-        <rect id="path-20" x="0" y="153" width="1920" height="1080"></rect>
-        <rect id="path-21" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
-        <rect id="path-22" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
-        <rect id="path-23" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
-        <rect id="path-24" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
-        <rect id="path-25" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
-        <rect id="path-26" x="664" y="0" width="194.928921" height="262.99466"></rect>
-        <rect id="path-27" x="0" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-28" x="223" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-29" x="446" y="30" width="151.05822" height="203.805084"></rect>
-        <rect id="path-30" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
-        <rect id="path-31" x="75" y="68" width="223" height="18.5312759"></rect>
-        <rect id="path-32" x="141" y="124" width="156.585842" height="18.5312759"></rect>
-        <rect id="path-33" x="48" y="180" width="249.173137" height="18.5312759"></rect>
-        <rect id="path-34" x="359" y="0" width="431.305074" height="581.909193"></rect>
+        <rect id="path-5" x="0" y="0" width="770.535104" height="39"></rect>
+        <rect id="path-6" x="304.698292" y="0" width="466.426982" height="39"></rect>
+        <rect id="path-7" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-8" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-9" x="324.067809" y="382.345448" width="1240.86438" height="850.654552"></rect>
+        <rect id="path-10" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-11" x="0" y="0" width="519" height="79" rx="3"></rect>
+        <rect id="path-12" x="0.967893402" y="91" width="569.965286" height="513.360655"></rect>
+        <rect id="path-13" x="0" y="0" width="569.260877" height="231.350728" rx="3"></rect>
+        <rect id="path-14" x="0" y="0" width="378.514151" height="223.951953" rx="3"></rect>
+        <rect id="path-15" x="91.1063584" y="68" width="270.889572" height="18.5312759"></rect>
+        <rect id="path-16" x="171.279954" y="124" width="190.212878" height="18.5312759"></rect>
+        <rect id="path-17" x="58.3080694" y="180" width="302.683428" height="18.5312759"></rect>
+        <rect id="path-18" x="0.967893402" y="91" width="569.965286" height="513.360655"></rect>
+        <rect id="path-19" x="0" y="0" width="569.260877" height="231.350728" rx="3"></rect>
+        <rect id="path-20" x="0" y="0" width="378.514151" height="223.951953" rx="3"></rect>
+        <rect id="path-21" x="91.1063584" y="68" width="270.889572" height="18.5312759"></rect>
+        <rect id="path-22" x="171.279954" y="124" width="190.212878" height="18.5312759"></rect>
+        <rect id="path-23" x="58.3080694" y="180" width="302.683428" height="18.5312759"></rect>
+        <rect id="path-24" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-25" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
+        <rect id="path-26" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-27" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-28" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
+        <rect id="path-29" x="417.137474" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-30" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-31" x="664" y="0" width="194.928921" height="262.99466"></rect>
+        <rect id="path-32" x="0" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-33" x="223" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-34" x="446" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-35" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
+        <rect id="path-36" x="75" y="68" width="223" height="18.5312759"></rect>
+        <rect id="path-37" x="141" y="124" width="156.585842" height="18.5312759"></rect>
+        <rect id="path-38" x="48" y="180" width="249.173137" height="18.5312759"></rect>
+        <rect id="path-39" x="0" y="153" width="1920" height="1080"></rect>
+        <rect id="path-40" x="0" y="0" width="311.932798" height="148.792857" rx="3"></rect>
+        <rect id="path-41" x="30.8114713" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-42" x="157.436397" y="11.6985145" width="151.05822" height="203.805084"></rect>
+        <rect id="path-43" x="287.18501" y="0.860009649" width="151.05822" height="203.805084"></rect>
+        <rect id="path-44" x="544.260592" y="43.7086051" width="151.05822" height="203.805084"></rect>
+        <rect id="path-45" x="664" y="0" width="194.928921" height="262.99466"></rect>
+        <rect id="path-46" x="0" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-47" x="223" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-48" x="446" y="30" width="151.05822" height="203.805084"></rect>
+        <rect id="path-49" x="0" y="0" width="311.5117" height="223.951953" rx="3"></rect>
+        <rect id="path-50" x="75" y="68" width="223" height="18.5312759"></rect>
+        <rect id="path-51" x="141" y="124" width="156.585842" height="18.5312759"></rect>
+        <rect id="path-52" x="48" y="180" width="249.173137" height="18.5312759"></rect>
+        <rect id="path-53" x="359" y="0" width="431.305074" height="581.909193"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="TitleScreen" transform="translate(0.000000, 5.000000)">
@@ -76,25 +95,228 @@
                 <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
             </g>
             <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
-                <tspan x="574.53125" y="480">Deine Ziele für diese Partie</tspan>
+                <tspan x="575.03125" y="420">Deine Ziele für diese Partie</tspan>
             </text>
-            <text id="Goals" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
-                <tspan x="425" y="779">	• 	500 € Gehaltserhöhung</tspan>
-                <tspan x="425" y="856">	• 	Keine Mitarbeiter entlassen</tspan>
-                <tspan x="425" y="933">	• 	Das Unternehmen in Brand stecken</tspan>
+            <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="825.296875" y="847">Handicap</tspan>
+            </text>
+            <g id="Group" transform="translate(575.000000, 1007.000000)">
+                <g id="Rectangle-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="769.535104" height="38"></rect>
+                </g>
+                <g id="Rectangle-4">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <rect stroke="#979797" stroke-width="1" x="305.198292" y="0.5" width="465.426982" height="38"></rect>
+                </g>
+            </g>
+            <text id="Goals" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="575" y="546">	• 	500 € Gehaltserhöhung</tspan>
+                <tspan x="575" y="589">	• 	Keine Mitarbeiter entlassen</tspan>
+                <tspan x="575" y="632">	• 	Das Unternehmen in Brand stecken</tspan>
+            </text>
+            <text id="Goals" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                <tspan x="1104.86133" y="973">-33% Finanzen</tspan>
             </text>
             <text font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
                 <tspan x="704" y="62">MatchGoalScreen</tspan>
             </text>
         </g>
+        <g id="PlayerSwitchScreen" transform="translate(6779.000000, 0.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="342.015625" y="514">Der Arbeitgeberverband / Die Gewerkschaft </tspan>
+                <tspan x="811.625" y="591">ist am Zug</tspan>
+            </text>
+            <text font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="673.65625" y="62">PlayerSwitchScreen</tspan>
+            </text>
+            <g id="ButtonPlay" transform="translate(861.000000, 783.000000)">
+                <circle id="Button" stroke="#979797" stroke-width="3" cx="99.0134161" cy="99.0134161" r="99.0134161"></circle>
+                <path d="M94.0787497,124.023506 C92.2182377,120.662581 90.7878656,118.191939 89.7875904,116.611504 L88.1971607,114.120831 L86.9968364,112.290336 C84.3761153,108.209213 81.6454049,104.838336 78.8046232,102.177604 C80.4250691,100.837236 81.935462,100.167061 83.3358474,100.167061 C85.0563208,100.167061 86.5867189,100.797225 87.9270877,102.057572 C89.2674565,103.317919 90.9578963,105.718543 92.9984578,109.259518 C95.3190964,101.717442 98.269864,94.5655817 101.850849,87.8037211 C103.831394,84.1227082 105.596854,81.6470641 107.14728,80.3767146 C108.697707,79.106365 110.753242,78.4711998 113.313946,78.4711998 C114.674321,78.4711998 116.354758,78.6812544 118.355308,79.10137 C113.213894,83.2425095 109.102824,88.1637898 106.021976,93.8653587 C102.941129,99.5669275 98.9600928,109.619543 94.0787497,124.023506 Z" id="Checkmark" fill="#979797"></path>
+            </g>
+        </g>
+        <g id="EndScreen" transform="translate(9001.000000, 0.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="691.96875" y="333">Sieg / Kompromiss </tspan>
+            </text>
+            <g id="OutcomeImage">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <rect stroke="#979797" stroke-width="1" x="324.567809" y="382.845448" width="1239.86438" height="849.654552"></rect>
+            </g>
+            <text font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="801.671875" y="62">EndScreen</tspan>
+            </text>
+            <g id="ButtonContinue" transform="translate(902.000000, 1031.000000)">
+                <circle id="Button" stroke="#979797" stroke-width="3" cx="57.654883" cy="57.654883" r="57.654883"></circle>
+                <polygon id="&gt;" fill="#979797" points="69.3498084 59.398501 45.4189043 68.7538673 45.4189043 65.0690403 64.9689586 57.6584438 45.4189043 50.2683186 45.4189043 46.5834916 69.3498084 55.9593292"></polygon>
+            </g>
+        </g>
+        <g id="StatisticsScreen" transform="translate(11198.000000, 5.000000)">
+            <g id="Page">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
+            </g>
+            <text id="PageTitle" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="747.015625" y="256">Endergebnisse</tspan>
+            </text>
+            <text id="EndScreen" font-family="Helvetica" font-size="64" font-weight="normal" fill="#000000">
+                <tspan x="730.578125" y="62">StatisticsScreen</tspan>
+            </text>
+            <g id="ButtonMainMenu" transform="translate(701.000000, 1087.000000)">
+                <g id="Rectangle-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="518" height="78" rx="3"></rect>
+                </g>
+                <text id="Titelbildschirm" font-family="Helvetica" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="107.015625" y="58">Titelbildschirm</tspan>
+                </text>
+            </g>
+            <g id="Gewerkschaft" transform="translate(1103.000000, 345.000000)">
+                <g id="Background">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <rect stroke="#979797" stroke-width="1" x="1.4678934" y="91.5" width="568.965286" height="512.360655"></rect>
+                </g>
+                <g id="GoalsPanel" transform="translate(0.967893, 91.000000)">
+                    <g id="Background">
+                        <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-13"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="568.260877" height="230.350728" rx="3"></rect>
+                    </g>
+                    <text id="PanelTitle" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="339.779647" y="56">2 von 4 Zielen erfüllt</tspan>
+                    </text>
+                    <g id="Goal" transform="translate(14.650775, 160.000000)">
+                        <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="253.307119" y="23">2% von 5% Gehaltserhöhung</tspan>
+                        </text>
+                        <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="0" y="23">+ 1300</tspan>
+                        </text>
+                        <g id="ButtonCancel" transform="translate(505.667713, 0.000000)">
+                            <ellipse id="Button" stroke="#979797" stroke-width="3" cx="15.9250875" cy="16" rx="15.9250875" ry="16"></ellipse>
+                            <polygon id="✕" fill="#979797" points="19.286967 19.3044181 18.7319271 19.862069 15.8457195 16.9622845 12.9595119 19.862069 12.4092984 19.3044181 15.295506 16.4046336 12.4092984 13.5048491 12.9595119 12.9520474 15.8457195 15.8518319 18.7319271 12.9520474 19.286967 13.5048491 16.4007594 16.4046336"></polygon>
+                        </g>
+                    </g>
+                    <g id="Goal" transform="translate(14.080277, 112.000000)">
+                        <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="209.521418" y="23">10 von 10 Entlassungen verhindert</tspan>
+                        </text>
+                        <text font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="0.57049711" y="26">+ 4000</tspan>
+                        </text>
+                        <g id="ButtonPlay" transform="translate(505.784783, 0.000000)">
+                            <ellipse id="Button" stroke="#979797" stroke-width="3" cx="15.6678038" cy="15.6944103" rx="15.6678038" ry="15.6944103"></ellipse>
+                            <path d="M14.8869462,19.6587076 C14.5925402,19.1259744 14.3661993,18.734358 14.2079165,18.4838465 L13.9562482,18.0890551 L13.7663099,17.7989073 C13.351609,17.152017 12.9195036,16.6177063 12.4699806,16.1959592 C12.7263987,15.9835001 12.965402,15.8772722 13.1869979,15.8772722 C13.4592442,15.8772722 13.7014132,15.9771581 13.9135121,16.1769331 C14.125611,16.376708 14.3931048,16.757226 14.7160016,17.3184985 C15.0832176,16.1230199 15.5501447,14.9893933 16.116797,13.9175849 C16.4301969,13.3341152 16.7095617,12.941706 16.9549,12.7403456 C17.2002383,12.5389851 17.5255044,12.4383064 17.9307083,12.4383064 C18.1459728,12.4383064 18.4118839,12.4716017 18.7284494,12.5381934 C17.914876,13.1945968 17.2643437,13.9746586 16.7768328,14.8784024 C16.2893219,15.7821462 15.659366,17.3755653 14.8869462,19.6587076 Z" id="Checkmark" fill="#979797"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="ResourcePanel" transform="translate(191.930728, 346.000000)">
+                    <g id="Background" opacity="0">
+                        <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-14"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="377.514151" height="222.951953" rx="3"></rect>
+                    </g>
+                    <text id="Resources" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="237.232196" y="31.6737226">Ressourcen</tspan>
+                    </text>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        <rect stroke="#979797" stroke-width="1" x="91.6063584" y="68.5" width="269.889572" height="17.5312759"></rect>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-16"></use>
+                        <rect stroke="#979797" stroke-width="1" x="171.779954" y="124.5" width="189.212878" height="17.5312759"></rect>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-17"></use>
+                        <rect stroke="#979797" stroke-width="1" x="58.8080694" y="180.5" width="301.683428" height="17.5312759"></rect>
+                    </g>
+                </g>
+                <text font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="340.919922" y="35"> Gewerkschaft</tspan>
+                </text>
+                <text id="Score" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="1.79882812" y="35"> 5300 / 10000</tspan>
+                </text>
+            </g>
+            <g id="Arbeitgeberverbund" transform="translate(214.000000, 345.000000)">
+                <g id="Background">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <rect stroke="#979797" stroke-width="1" x="1.4678934" y="91.5" width="568.965286" height="512.360655"></rect>
+                </g>
+                <g id="GoalsPanel" transform="translate(0.967893, 91.000000)">
+                    <g id="Background">
+                        <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-19"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="568.260877" height="230.350728" rx="3"></rect>
+                    </g>
+                    <text id="PanelTitle" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="20" y="56">2 von 4 Zielen erfüllt</tspan>
+                    </text>
+                    <g id="Goal" transform="translate(286.650775, 176.000000) scale(-1, 1) translate(-286.650775, -176.000000) translate(20.650775, 160.000000)">
+                        <text transform="translate(240.732661, 16.000000) scale(-1, 1) translate(-240.732661, -16.000000) " font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="0" y="23">20 von 500 Gefangen genommen</tspan>
+                        </text>
+                        <g id="ButtonCancel" transform="translate(499.667713, 0.000000)">
+                            <ellipse id="Button" stroke="#979797" stroke-width="3" cx="15.9250875" cy="16" rx="15.9250875" ry="16"></ellipse>
+                            <polygon id="✕" fill="#979797" points="19.286967 19.3044181 18.7319271 19.862069 15.8457195 16.9622845 12.9595119 19.862069 12.4092984 19.3044181 15.295506 16.4046336 12.4092984 13.5048491 12.9595119 12.9520474 15.8457195 15.8518319 18.7319271 12.9520474 19.286967 13.5048491 16.4007594 16.4046336"></polygon>
+                        </g>
+                    </g>
+                    <g id="Goal" transform="translate(287.580277, 128.000000) scale(-1, 1) translate(-287.580277, -128.000000) translate(23.080277, 112.000000)">
+                        <text transform="translate(84.177519, 11.000000) scale(-1, 1) translate(-84.177519, -11.000000) " font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="111.799374" y="18">+ 4000</tspan>
+                        </text>
+                        <text transform="translate(239.843785, 16.000000) scale(-1, 1) translate(-239.843785, -16.000000) " font-family="Helvetica" font-size="18" font-weight="normal" fill="#000000">
+                            <tspan x="0.974745612" y="23">50 von 50 Mitarbeitern entlassen</tspan>
+                        </text>
+                        <g id="ButtonPlay" transform="translate(496.784783, 0.000000)">
+                            <ellipse id="Button" stroke="#979797" stroke-width="3" cx="15.6678038" cy="15.6944103" rx="15.6678038" ry="15.6944103"></ellipse>
+                            <path d="M14.8869462,19.6587076 C14.5925402,19.1259744 14.3661993,18.734358 14.2079165,18.4838465 L13.9562482,18.0890551 L13.7663099,17.7989073 C13.351609,17.152017 12.9195036,16.6177063 12.4699806,16.1959592 C12.7263987,15.9835001 12.965402,15.8772722 13.1869979,15.8772722 C13.4592442,15.8772722 13.7014132,15.9771581 13.9135121,16.1769331 C14.125611,16.376708 14.3931048,16.757226 14.7160016,17.3184985 C15.0832176,16.1230199 15.5501447,14.9893933 16.116797,13.9175849 C16.4301969,13.3341152 16.7095617,12.941706 16.9549,12.7403456 C17.2002383,12.5389851 17.5255044,12.4383064 17.9307083,12.4383064 C18.1459728,12.4383064 18.4118839,12.4716017 18.7284494,12.5381934 C17.914876,13.1945968 17.2643437,13.9746586 16.7768328,14.8784024 C16.2893219,15.7821462 15.659366,17.3755653 14.8869462,19.6587076 Z" id="Checkmark" fill="#979797"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="ResourcePanel" transform="translate(190.500000, 460.000000) scale(-1, 1) translate(-190.500000, -460.000000) translate(1.000000, 348.000000)">
+                    <g id="Background" opacity="0">
+                        <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-20"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="377.514151" height="222.951953" rx="3"></rect>
+                    </g>
+                    <text id="Resources" transform="translate(192.719641, 23.173723) scale(-1, 1) translate(-192.719641, -23.173723) " font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                        <tspan x="20.1445869" y="31.6737226">Ressourcen</tspan>
+                    </text>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-21"></use>
+                        <rect stroke="#979797" stroke-width="1" x="91.6063584" y="68.5" width="269.889572" height="17.5312759"></rect>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-22"></use>
+                        <rect stroke="#979797" stroke-width="1" x="171.779954" y="124.5" width="189.212878" height="17.5312759"></rect>
+                    </g>
+                    <g id="Rectangle-2">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-23"></use>
+                        <rect stroke="#979797" stroke-width="1" x="58.8080694" y="180.5" width="301.683428" height="17.5312759"></rect>
+                    </g>
+                </g>
+                <text id="Score" font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="350.798828" y="35"> 5300 / 10000</tspan>
+                </text>
+                <text font-family="Helvetica" font-size="36" font-weight="normal" fill="#000000">
+                    <tspan x="1.78710938" y="35">Arbeitgeberverbund</tspan>
+                </text>
+            </g>
+        </g>
         <g id="GameFieldScreen" transform="translate(4531.000000, 5.000000)">
             <g id="Page">
-                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
                 <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
             </g>
             <g id="GoalsPanel" transform="translate(52.000000, 153.000000)">
                 <g id="Background">
-                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-25"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.932798" height="147.792857" rx="3"></rect>
                 </g>
                 <text id="Goals" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
@@ -108,62 +330,62 @@
             </g>
             <g id="Hand" transform="translate(599.000000, 931.000000)">
                 <g id="Card" transform="translate(106.340581, 145.611147) rotate(-20.000000) translate(-106.340581, -145.611147) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-26"></use>
                     <rect stroke="#979797" stroke-width="1" x="31.3114713" y="44.2086051" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card" transform="translate(232.965506, 113.601056) rotate(-10.000000) translate(-232.965506, -113.601056) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-8"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-27"></use>
                     <rect stroke="#979797" stroke-width="1" x="157.936397" y="12.1985145" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-28"></use>
                     <rect stroke="#979797" stroke-width="1" x="287.68501" y="1.36000965" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card" transform="translate(492.666583, 113.601056) rotate(10.000000) translate(-492.666583, -113.601056) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-10"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-29"></use>
                     <rect stroke="#979797" stroke-width="1" x="417.637474" y="12.1985145" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card" transform="translate(619.789702, 145.611147) rotate(20.000000) translate(-619.789702, -145.611147) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-30"></use>
                     <rect stroke="#979797" stroke-width="1" x="544.760592" y="44.2086051" width="150.05822" height="202.805084"></rect>
                 </g>
             </g>
             <g id="GameField" transform="translate(208.000000, 496.000000)">
                 <g id="LastPlayedCard">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-31"></use>
                     <rect stroke="#979797" stroke-width="1" x="664.5" y="0.5" width="193.928921" height="261.99466"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-32"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-14"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-33"></use>
                     <rect stroke="#979797" stroke-width="1" x="223.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-34"></use>
                     <rect stroke="#979797" stroke-width="1" x="446.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
             </g>
             <g id="ResourcePanel" transform="translate(1569.000000, 975.000000)">
                 <g id="Background" opacity="0">
-                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-16"></use>
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-35"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.5117" height="222.951953" rx="3"></rect>
                 </g>
                 <text id="Resources" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="170.229745" y="31.6737226">Ressourcen</tspan>
                 </text>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-36"></use>
                     <rect stroke="#979797" stroke-width="1" x="75.5" y="68.5" width="222" height="17.5312759"></rect>
                 </g>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-18"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-37"></use>
                     <rect stroke="#979797" stroke-width="1" x="141.5" y="124.5" width="155.585842" height="17.5312759"></rect>
                 </g>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-38"></use>
                     <rect stroke="#979797" stroke-width="1" x="48.5" y="180.5" width="248.173137" height="17.5312759"></rect>
                 </g>
             </g>
@@ -192,12 +414,12 @@
         </g>
         <g id="GameFieldScreen_CardOverlay" transform="translate(4531.000000, 1437.000000)">
             <g id="Page" opacity="0.98975317">
-                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-20"></use>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-39"></use>
                 <rect stroke="#979797" stroke-width="1" x="0.5" y="153.5" width="1919" height="1079"></rect>
             </g>
             <g id="GoalsPanel" transform="translate(52.000000, 153.000000)">
                 <g id="Background">
-                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-21"></use>
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-40"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.932798" height="147.792857" rx="3"></rect>
                 </g>
                 <text id="Goals" font-family="Helvetica" font-size="14" font-weight="normal" fill="#000000">
@@ -211,58 +433,58 @@
             </g>
             <g id="Hand" transform="translate(599.000000, 931.000000)">
                 <g id="Card" transform="translate(106.340581, 145.611147) rotate(-20.000000) translate(-106.340581, -145.611147) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-22"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-41"></use>
                     <rect stroke="#979797" stroke-width="1" x="31.3114713" y="44.2086051" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card" transform="translate(232.965506, 113.601056) rotate(-10.000000) translate(-232.965506, -113.601056) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-23"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-42"></use>
                     <rect stroke="#979797" stroke-width="1" x="157.936397" y="12.1985145" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-24"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-43"></use>
                     <rect stroke="#979797" stroke-width="1" x="287.68501" y="1.36000965" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card" transform="translate(619.789702, 145.611147) rotate(20.000000) translate(-619.789702, -145.611147) ">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-25"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-44"></use>
                     <rect stroke="#979797" stroke-width="1" x="544.760592" y="44.2086051" width="150.05822" height="202.805084"></rect>
                 </g>
             </g>
             <g id="GameField" transform="translate(208.000000, 496.000000)">
                 <g id="LastPlayedCard">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-26"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-45"></use>
                     <rect stroke="#979797" stroke-width="1" x="664.5" y="0.5" width="193.928921" height="261.99466"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-27"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-46"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-28"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-47"></use>
                     <rect stroke="#979797" stroke-width="1" x="223.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
                 <g id="Card">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-29"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-48"></use>
                     <rect stroke="#979797" stroke-width="1" x="446.5" y="30.5" width="150.05822" height="202.805084"></rect>
                 </g>
             </g>
             <g id="ResourcePanel" transform="translate(1569.000000, 975.000000)">
                 <g id="Background" opacity="0">
-                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-30"></use>
+                    <use fill="#F0F0F0" fill-rule="evenodd" xlink:href="#path-49"></use>
                     <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="310.5117" height="222.951953" rx="3"></rect>
                 </g>
                 <text id="Resources" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="170.229745" y="31.6737226">Ressourcen</tspan>
                 </text>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-31"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-50"></use>
                     <rect stroke="#979797" stroke-width="1" x="75.5" y="68.5" width="222" height="17.5312759"></rect>
                 </g>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-32"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-51"></use>
                     <rect stroke="#979797" stroke-width="1" x="141.5" y="124.5" width="155.585842" height="17.5312759"></rect>
                 </g>
                 <g id="Rectangle-2">
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-33"></use>
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-52"></use>
                     <rect stroke="#979797" stroke-width="1" x="48.5" y="180.5" width="248.173137" height="17.5312759"></rect>
                 </g>
             </g>
@@ -292,7 +514,7 @@
                 <rect fill="#FFFFFF" opacity="0.6" x="0" y="0" width="1920" height="1080"></rect>
                 <g id="FocusedCard" transform="translate(381.000000, 249.000000)">
                     <g id="Card">
-                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-34"></use>
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-53"></use>
                         <rect stroke="#979797" stroke-width="1" x="359.5" y="0.5" width="430.305074" height="580.909193"></rect>
                     </g>
                     <g id="ExtendedDescription" transform="translate(0.000000, 44.000000)" fill="#000000">
