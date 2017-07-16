@@ -4,9 +4,13 @@ import {connect} from 'react-redux';
 import {
     StartScreen,
     MatchNegotiation,
-    MatchDispute
+    MatchDispute,
+    PlayerChange
 } from '.';
-import { appActions } from '../actions';
+import {
+    appActions,
+    cardActions
+} from '../actions';
 import {
     Card,
     ProgressBar
@@ -15,11 +19,15 @@ import { config, l } from '../tools';
 
 class CardOverview extends Component {
     render() {
-        const { type } = this.props;
+        const { type, playCard, cancel } = this.props;
 
         return (
             <div className={"card-overview"}>
                 <Card type={type} />
+                <div className="buttons">
+                    <button onClick={playCard}>Karte spielen</button>
+                    <button onClick={cancel}>Abbrechen</button>
+                </div>
             </div>
         )
     }
@@ -35,11 +43,17 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch){
-    return {
-        gotoStart: () => appActions.changeView(dispatch)(StartScreen.id),
-        accept: () => null,
-        reject: () => null,
-    }
+    return dispatch((dispatch, getState) => {
+        const viewHistory = getState().app.viewHistory;
+        const proviousView = viewHistory[viewHistory.length-2];
+        return {
+            playCard: () => {
+                cardActions.playDisplayedCard(dispatch)();
+                appActions.changeView(dispatch)(PlayerChange.id);
+            },
+            cancel: () => appActions.changeView(dispatch)(proviousView)
+        }
+    });
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(CardOverview);
