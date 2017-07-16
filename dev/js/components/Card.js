@@ -12,20 +12,38 @@ class Card extends Component {
         const { type } = this.props;
 
         const model = new CardModel(type);
-        const category = model.getCategory();
+        
+        let visualCategory;
+        switch (model.getCategory()) {
+            case "attack":
+                visualCategory = "attack";
+                break;
+            case "agreement":
+                visualCategory = "agreement";
+                break;
+            case "offer_main":
+                visualCategory = "offer_main";
+                break;
+            case "offer_secondary":
+                visualCategory = "offer_secondary";
+                break;
+            default:
+                visualCategory = "default";
+        }
+
         const title = model.getTitle();
 
         return (
-            <div className={`card ${category}`}>
-                <div className={`header ${category}`}>
+            <div className={`card ${visualCategory}`}>
+                <div className={`header ${visualCategory}`}>
                     <div className="title">
                         {title}
                     </div>
                     <div className="circle"></div>
                 </div>
-                <div className={`circle ${category}`}></div>
+                <div className={`circle ${visualCategory}`}></div>
                 <div className="content">
-                    <CardContent model={model}/>
+                    <CardContent model={model} category={visualCategory}/>
                 </div>
                 <div className="icon">
                 </div>
