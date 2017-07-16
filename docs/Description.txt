@@ -1,0 +1,11 @@
+Beschreibung:
+
+Total War - Tarifvertrag ist ein Spiel für zwei Spieler, das die Verhandlungen um einen Tarifvertrag simuliert. Die Spieler übernehmen die Rollen der Arbeitgeberverbände und der Gewerkschaften und bekommen Ziele für die aktuelle Verhandlung gesetzt (z.B. um wie viel die Löhne angehoben werden sollen, ob mehr oder weniger Urlaubstage durchgesetzt werden sollen usw.)
+
+Die Partie beginnt am Verhandlungstisch, bei denen sich beide Seite abwechselnd gegenseitig Angebote machen können, um eine Einigung zu erzielen. Dieser Teil des Spiels ist durch soziale Interaktion geprägt und die Spieler können sich gegenseitig Zugeständnisse machen oder sich unter Druck setzen, um die eigenen Ziele durchzudrücken. Das Spiel ist darauf ausgelegt, dass es hierbei zu Konflikten kommt und jeder Spieler kann die Verhandlungen jederzeit für gescheitert erklären, um in den Arbeitskampf überzugehen.
+
+Im Arbeitskampf setzten sich beide Seite durch Maßnahmen wie Streiks, Entlassungen oder Öffentlichkeitsarbeit gegenseitig unter Druck. Jeder Spieler hat drei Parameter: Finanzmittel, Moral und Öffentliches Bild und man kann durch Arbeitskampfaktionen die Parameter des Gegenspielers reduzieren. Gelingt es einem Spieler, einen Parameter des gegenspielers auf 0 zu reduzieren, so gewinnt er das Spiel, weil dieser dann keine Finanzen für einen weiteren Arbeitskampf hat, weil er keinen Rückhalt in der eigenen Fraktion hat oder weil der öffentliche Druck auf ihn so groß geworden ist, dass seine Seite nachgeben muss.
+
+Doch das Spiel muss nicht im Arbeitskampf entschieden werden. Anstatt sich gegenseitig aufzureiben kann man jederzeit an den Verhandlungstisch zurückkehren, um eine Einigung über den neuen Tarifvertrag zu erzielen. Kommt es zu einer Einigung, endet das Spiel.
+
+Das Spiel hat das Ziel, die Abläufe einer Tarifverhandlung und eines Arbeitskampfes zu vermitteln. Die einzelnen Aktionen eines Spielers sind als Karten dargestellt, die typische Maßnahmen während eines Arbeitskampfes darstellen und erkläre (z.B. Warnstreiks, das Einstellen von Leiharbeitern usw.). Neben der Vermittlung dieses Wissens soll das Spiel außerdem das Verhandlungsgeschick des Spielers trainieren und die Konsequenzen von Eskalationen während eines Arbeitskampfs aufzeigen.
