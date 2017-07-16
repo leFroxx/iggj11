@@ -33,18 +33,22 @@ class Match extends Component {
         )
     }
 }
+Match.id = "match";
 
 function mapStateToProps(state, props) {
     const cardHistory = state.app.cardHistory
 
     const activePlayerType = state.app.activePlayer;
     const player = state.players[activePlayerType];
+    console.log("state");
+    console.log(state);
     const activePhase = state.app.activePhase;
-    const usableCards = player.getUsableCards(props.phase);
+    const usableCards = player.getUsableCards(activePhase);
 
     return {
         cardHistory,
-        usableCards
+        usableCards,
+        phase: activePhase
     };
 }
 

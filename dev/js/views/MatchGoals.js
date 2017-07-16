@@ -21,7 +21,6 @@ class MatchGoals extends Component {
         const handicapPercentage = statMaxValue > 0 ? 100 / statMaxValue * handicapValue : 0;
 
         const statName = l("stat_" + statType);
-        console.log(statType);
 
         return (
             <div>
