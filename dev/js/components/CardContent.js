@@ -31,18 +31,21 @@ class CardContent extends Component {
                 renderedContent = renderDefaultContent(model);
         }
 
-        return (
-            <div className={`card-content ${category}`}>
-                {renderedContent}
-            </div>
-        )
+        return renderedContent;
     }
 }
 
 function renderAttackContent(model) {
     return (
-        <div>
-            Attack
+        <div className="card-content attack">
+            <div className="attack-bar">
+                <div className="damage-value">-12</div>
+                <div className="damage-type">Motivation</div>
+            </div>
+            <div className="attack-bar">
+                <div className="damage-value">-10</div>
+                <div className="damage-type">Finanzen</div>
+            </div>
         </div>
     )
 }

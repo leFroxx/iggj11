@@ -1,8 +1,20 @@
 .card-content {
-    margin-top: 74px;
-    text-align: center;
+    width: 100%;
+}
 
-    &.attack {
+.card-content.attack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
+    .attack-bar {
+        width: 100%;
+        padding: 3px 12px;
+        background: $color-card-attack-dark;
+        color: white;
+        border-radius: 100px;
+        display: flex;
+        margin-bottom: 12px;
+        justify-content: space-between;
     }
 }
