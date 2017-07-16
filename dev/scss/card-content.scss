@@ -1,5 +1,33 @@
 .card-content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    input[type="range"] {
+        -webkit-appearance: none;
+    }
+
+    input[type="range"]:focus {
+        outline: none;
+    }
+
+    input[type="range"]::-webkit-slider-runnable-track {
+        border: none;
+        height: 6px;
+        border-radius: 6px;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        margin-top: -3px;
+        height: 12px;
+        width: 12px;
+        border: none;
+        border-radius: 12px;
+    }
 }
 
 .card-content.attack {
@@ -16,5 +44,35 @@
         display: flex;
         margin-bottom: 12px;
         justify-content: space-between;
+    }
+}
+
+.card-content.agreement {
+    color: $color-card-aprovement-dark;
+}
+
+.card-content.offer_main {
+    color: $color-card-offer-main-dark;
+    justify-content: space-around;
+
+    input[type="range"]::-webkit-slider-runnable-track {
+        background: $color-card-offer-main-dark;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        background: $color-card-offer-main-dark;
+    }
+}
+
+.card-content.offer_secondary {
+    color: $color-card-offer-sec-dark;
+    justify-content: space-around;
+
+    input[type="range"]::-webkit-slider-runnable-track {
+        background: $color-card-offer-sec-dark;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        background: $color-card-offer-sec-dark;
     }
 }

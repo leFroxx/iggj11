@@ -52,24 +52,26 @@ function renderAttackContent(model) {
 
 function renderAgreementContent(model) {
     return (
-        <div>
-            Agreement
+        <div className="card-content agreement">
+            Den Tarifvertrag festlegen
         </div>
     )
 }
 
 function renderOfferMainContent(model) {
     return (
-        <div>
-            Offer Main
+        <div className="card-content offer_main">
+            <div className="description">10% Gehaltserhöhung</div>
+            <input type="range" className="slider"/>
         </div>
     )
 }
 
 function renderOfferSecondaryContent(model) {
     return (
-        <div>
-            Offer Secondary
+        <div className="card-content offer_secondary">
+            <div className="description">10% Mehr Urlaub</div>
+            <input type="range" className="slider"/>
         </div>
     )
 }
