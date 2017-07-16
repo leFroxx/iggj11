@@ -13,11 +13,15 @@ export const changeView = (dispatch) => {
 }
 export const setActivePlayer = (dispatch) => {
     return (playerType) => {
-        dispatch({
-            type: 'APP_SET_ACTIVE_PLAYER',
-            data: {
-                playerType
-            }
+        return dispatch((dispatch, getState) => {
+            const player = getState().players[playerType];
+
+            dispatch({
+                type: 'APP_SET_ACTIVE_PLAYER',
+                data: {
+                    playerType
+                }
+            });
         });
     }
 }
@@ -43,6 +47,7 @@ export const setNextPlayerActive = (dispatch) => {
             }
             const playerType = playerTypes[nextPlayerIndex];
 
+            console.log("currentlyActivePlayer");
             console.log(currentlyActivePlayer);
 
             return setActivePlayer(dispatch)(playerType);

@@ -4,8 +4,11 @@ require('../scss/style.scss');
 
 import {
     StartScreen,
+    Credits,
+    PlayerChange,
     MatchGoals,
-    Credits
+    MatchNegotiation,
+    MatchDispute
 } from './views';
 import { playerActions } from './actions';
 
@@ -20,11 +23,20 @@ class App extends Component {
             case StartScreen.id:
                 activeView = <StartScreen />
                 break;
+            case Credits.id:
+                activeView = <Credits />
+                break;
+            case PlayerChange.id:
+                activeView = <PlayerChange />
+                break;
             case MatchGoals.id:
                 activeView = <MatchGoals />
                 break;
-            case Credits.id:
-                activeView = <Credits />
+            case MatchNegotiation.id:
+                activeView = <MatchNegotiation />
+                break;
+            case MatchDispute.id:
+                activeView = <MatchDispute />
                 break;
             default:
         }

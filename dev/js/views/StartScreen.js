@@ -2,19 +2,19 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 import {
-    MatchGoals,
+    PlayerChange,
     Credits
 } from '.';
 import { appActions } from '../actions';
 
 class StartScreen extends Component {
     render() {
-        const { gotoMatchGoals, gotoCredits } = this.props;
+        const { startGame, gotoCredits } = this.props;
         return (
             <div className="start-screen">
                 <h1>Arbeitskampf</h1>
                 <div className="buttons">
-                    <button onClick={gotoMatchGoals}>Start</button>
+                    <button onClick={startGame}>Start</button>
                     <button onClick={gotoCredits}>Credits</button>
                 </div>
             </div>
@@ -30,7 +30,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch, getState, c){
     return {
-        gotoMatchGoals: () => appActions.changeView(dispatch)(MatchGoals.id),
+        startGame: () => appActions.changeView(dispatch)(PlayerChange.id),
         gotoCredits: () => appActions.changeView(dispatch)(Credits.id)
     }
 }

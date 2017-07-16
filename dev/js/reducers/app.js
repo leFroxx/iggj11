@@ -15,7 +15,6 @@ export default function (state = defaultState, action) {
             }
             break;
         case 'APP_SET_ACTIVE_PLAYER':
-            console.log("reducer");
             return {
                 ...state,
                 activePlayer: action.data.playerType
