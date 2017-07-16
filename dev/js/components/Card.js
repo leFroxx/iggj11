@@ -9,10 +9,10 @@ import { appActions } from '../actions';
 
 class Card extends Component {
     render() {
-        const { type } = this.props;
+        const { type, onClick } = this.props;
 
         const model = new CardModel(type);
-        
+
         let visualCategory;
         switch (model.getCategory()) {
             case "attack":
@@ -34,7 +34,7 @@ class Card extends Component {
         const title = model.getTitle();
 
         return (
-            <div className={`card ${visualCategory}`}>
+            <div className={`card ${visualCategory}`} onClick={onClick} >
                 <div className={`header ${visualCategory}`}>
                     <div className="title">
                         {title}

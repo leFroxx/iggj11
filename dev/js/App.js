@@ -8,7 +8,8 @@ import {
     PlayerChange,
     MatchGoals,
     MatchNegotiation,
-    MatchDispute
+    MatchDispute,
+    CardOverview
 } from './views';
 import { playerActions } from './actions';
 
@@ -37,6 +38,9 @@ class App extends Component {
                 break;
             case MatchDispute.id:
                 activeView = <MatchDispute />
+                break;
+            case CardOverview.id:
+                activeView = <CardOverview />
                 break;
             default:
         }

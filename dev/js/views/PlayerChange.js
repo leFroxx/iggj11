@@ -47,7 +47,6 @@ function mapDispatchToProps(dispatch){
             setNextPlayerActive: () => appActions.setNextPlayerActive(dispatch)(),
             gotoNextView: () => {
                 const viewHistory = getState().app.viewHistory;
-                console.log(viewHistory);
                 const amountOfMatchGoalCalls = viewHistory.filter(v => v == MatchGoals.id).length;
                 const eachPlayerHadAMatchGoalCall = amountOfMatchGoalCalls >= playerTypes.length
                 if (eachPlayerHadAMatchGoalCall) {

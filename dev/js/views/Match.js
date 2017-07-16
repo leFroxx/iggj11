@@ -4,7 +4,8 @@ import {connect} from 'react-redux';
 import {
     StartScreen,
     MatchNegotiation,
-    MatchDispute
+    MatchDispute,
+    CardOverview
 } from '.';
 import { appActions } from '../actions';
 import {
@@ -15,7 +16,7 @@ import { config, l } from '../tools';
 
 class Match extends Component {
     render() {
-        const { phase, usableCards, gotoStart } = this.props;
+        const { phase, usableCards, gotoStart, displayCard } = this.props;
 
         const phaseName = l("phase_" + phase);
 
@@ -23,7 +24,7 @@ class Match extends Component {
             <div className={"match match-" + phase}>
                 <h1>{phaseName}</h1>
                 <div className="cards-wrapper">
-                    {usableCards.map((type, key) => <Card key={key} type={type} />)}
+                    {usableCards.map((type, key) => <Card key={key} type={type} onClick={displayCard(type)} />)}
                 </div>
             </div>
         )
@@ -44,6 +45,13 @@ function mapStateToProps(state, props) {
 function mapDispatchToProps(dispatch){
     return {
         gotoStart: () => appActions.changeView(dispatch)(StartScreen.id),
+        displayCard: (type) => {
+            console.log("click1");
+            return () => {
+                console.log("click2");
+                return appActions.changeView(dispatch)(CardOverview.id, {type});
+            }
+        }
     }
 }
 

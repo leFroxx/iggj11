@@ -12,7 +12,7 @@ class StartScreen extends Component {
         const { startGame, gotoCredits } = this.props;
         return (
             <div className="start-screen">
-                <h1>Arbeitskampf</h1>
+                <h1>Total War: Tarifvertrag</h1>
                 <div className="buttons">
                     <button onClick={startGame}>Start</button>
                     <button onClick={gotoCredits}>Credits</button>
