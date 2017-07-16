@@ -7,7 +7,10 @@ import {
     MatchDispute
 } from '.';
 import { appActions } from '../actions';
-import { ProgressBar } from '../components';
+import {
+    Card,
+    ProgressBar
+} from '../components';
 import { config, l } from '../tools';
 
 class Match extends Component {
@@ -20,9 +23,8 @@ class Match extends Component {
             <div className={"match match-" + phase}>
                 <h1>{phaseName}</h1>
                 <div className="cards-wrapper">
-                    {usableCards.map(c => <Card type={c.type} />)}
+                    {usableCards.map((type, key) => <Card key={key} type={type} />)}
                 </div>
-                <button onClick={gotoStart}>Zurück</button>
             </div>
         )
     }

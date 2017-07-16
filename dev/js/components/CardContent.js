@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import CardModel from '../models/Card'; 
+import CardModel from '../models/Card';
 
 import { appActions } from '../actions';
 
@@ -24,6 +24,9 @@ class CardContent extends Component {
                 break;
             case "offer_secondary":
                 renderedContent = renderOfferSecondaryContent(model);
+                break;
+            case "declinement":
+                renderedContent = renderDeclinementContent(model);
                 break;
             default:
                 renderedContent = renderDefaultContent(model);
@@ -65,6 +68,14 @@ function renderOfferSecondaryContent(model) {
     return (
         <div>
             Offer Secondary
+        </div>
+    )
+}
+
+function renderDeclinementContent(model) {
+    return (
+        <div>
+            Declinement
         </div>
     )
 }

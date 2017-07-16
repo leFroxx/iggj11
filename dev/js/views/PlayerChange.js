@@ -3,11 +3,13 @@ import {connect} from 'react-redux';
 
 import {
     StartScreen,
-    MatchGoals
+    MatchGoals,
+    MatchNegotiation
 } from '.';
 import { appActions } from '../actions';
 import { ProgressBar } from '../components';
 import { config, l } from '../tools';
+import { playerTypes } from '../models';
 
 class PlayerChange extends Component {
     componentWillMount() {
@@ -40,11 +42,23 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch){
-    return {
-        setNextPlayerActive: () => appActions.setNextPlayerActive(dispatch)(),
-        gotoNextView: () => appActions.changeView(dispatch)(MatchGoals.id),
-        gotoStart: () => appActions.changeView(dispatch)(StartScreen.id)
-    }
+    return dispatch((dispatch, getState) => {
+        return {
+            setNextPlayerActive: () => appActions.setNextPlayerActive(dispatch)(),
+            gotoNextView: () => {
+                const viewHistory = getState().app.viewHistory;
+                console.log(viewHistory);
+                const amountOfMatchGoalCalls = viewHistory.filter(v => v == MatchGoals.id).length;
+                const eachPlayerHadAMatchGoalCall = amountOfMatchGoalCalls >= playerTypes.length
+                if (eachPlayerHadAMatchGoalCall) {
+                    return appActions.changeView(dispatch)(MatchNegotiation.id);
+                } else {
+                    return appActions.changeView(dispatch)(MatchGoals.id);
+                }
+            },
+            gotoStart: () => appActions.changeView(dispatch)(StartScreen.id)
+        }
+    });
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlayerChange);
