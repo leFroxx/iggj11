@@ -10,7 +10,7 @@
 
     }
     
-    &.approvement{
+    &.agreement{
         background-color: $color-card-aprovement-light;
     }
 
@@ -22,13 +22,10 @@
         background-color: $color-card-offer-sec-light;
     }
 
-    &.agreement{
+    &.default{
         background-color: $color-card-default-light;
     }
 
-    &.declinement{
-        background-color: $color-card-attack-light;
-    }
 
     &.attack{
         background-color: $color-card-attack-light;
@@ -39,7 +36,7 @@
         height: 142px;
         border-radius: 3px;
         
-        &.approvement{
+        &.agreement{
             background-color: $color-card-aprovement-dark;
         }
 
@@ -51,12 +48,8 @@
             background-color: $color-card-offer-sec-dark;
         }
 
-        &.agreement{
+        &.default{
             background-color: $color-card-default-dark;
-        }
-
-        &.declinement{
-            background-color: $color-card-attack-dark;
         }
 
         &.attack{
@@ -88,6 +81,22 @@
 
         &.attack {
             border-color: $color-card-attack-light;
+        }
+
+        &.offer_main {
+            border-color: $color-card-offer-main-light;
+        }
+
+        &.offer_secondary {
+            border-color: $color-card-offer-sec-light;
+        }
+
+        &.agreement {
+            border-color: $color-card-aprovement-light;
+        }
+
+        &.default {
+            border-color: $color-card-default-light;
         }
     }
 
