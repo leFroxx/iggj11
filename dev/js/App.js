@@ -37,9 +37,9 @@ class App extends Component {
 }
 
 function mapStateToProps(state) {
-   return {
-       activeViewId: state.app.activeView
-   };
+    return {
+        activeViewId: state.app.activeView
+    };
 }
 
 function mapDispatchToProps(dispatch) {

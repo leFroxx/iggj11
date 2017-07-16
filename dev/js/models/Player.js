@@ -51,27 +51,27 @@ Player.generateRandomGoals = () => {
         goalRaiseMaxValue,
         goalRaiseMinDiff,
         goalRaiseMaxDiff,
-        goalWealthMinValue,
-        goalWealthMaxValue,
-        goalWealthMinDiff,
-        goalWealthMaxDiff,
-        goalReputationMinValue,
-        goalReputationMaxValue,
-        goalReputationMinDiff,
-        goalReputationMaxDiff
+        goalHolidayMinValue,
+        goalHolidayMaxValue,
+        goalHolidayMinDiff,
+        goalHolidayMaxDiff,
+        goalBonusMinValue,
+        goalBonusMaxValue,
+        goalBonusMinDiff,
+        goalBonusMaxDiff
     } = config;
     const raiseMetric = common.randomWithDiff(goalRaiseMinValue, goalRaiseMaxValue, goalRaiseMinDiff, goalRaiseMaxDiff);
-    const wealthMetric = common.randomWithDiff(goalWealthMinValue, goalWealthMaxValue, goalWealthMinDiff, goalWealthMaxDiff);
-    const reputationMetric = common.randomWithDiff(goalReputationMinValue, goalReputationMaxValue, goalReputationMinDiff, goalReputationMaxDiff);
+    const holidayMetric = common.randomWithDiff(goalHolidayMinValue, goalHolidayMaxValue, goalHolidayMinDiff, goalHolidayMaxDiff);
+    const bonusMetric = common.randomWithDiff(goalBonusMinValue, goalBonusMaxValue, goalBonusMinDiff, goalBonusMaxDiff);
     const goalsBoss = {
         raise: raiseMetric[0],
-        wealth: wealthMetric[0],
-        reputation: reputationMetric[0],
+        holiday: holidayMetric[0],
+        bonus: bonusMetric[0],
     }
     const goalsWorker = {
         raise: raiseMetric[1],
-        wealth: wealthMetric[1],
-        reputation: reputationMetric[1],
+        holiday: holidayMetric[1],
+        bonus: bonusMetric[1],
     }
 
     return {
