@@ -1,10 +1,24 @@
+import { appActions } from '.';
+
 export const playDisplayedCard = (dispatch) => {
     return () => {
-        dispatch({
-            type: "CARD_PLAY_DISPLAYED_CARD",
-            data: {
+        let after = () => null;
+        dispatch((dispatch, getState) => {
+            console.log("state");
+            const state = getState();
+            if (state.app.displayedCard == "declinement") {
+                console.log("switch to dispute")
+                appActions.changeActivePhase(dispatch)("dispute");
+            } else if (state.app.displayedCard == "negotiation") {
+                appActions.changeActivePhase(dispatch)("negotiation");
             }
+            return dispatch({
+                type: "CARD_PLAY_DISPLAYED_CARD",
+                data: {
+                }
+            });
         });
+        after();
     }
 }
 

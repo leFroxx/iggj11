@@ -9,6 +9,9 @@ export default (key, params = {}) => {
         localized = localized.replace(regex, v);
     });
 
+    // console.log(key);
+    // console.log(localized);
+
     return localized;
 }
 const delimiter_start = "§";
@@ -31,6 +34,7 @@ const dictionary = {
 	"card_attack_9_title": "Schwerpunktstreik",
 	"card_attack_10_title": "Flächenstreik",
 	"card_attack_11_title": "Sympathiestreik",
+	"card_negotiation_title": "Verhandeln",
     "card_agreement_description": "Angebot annehmen",
     "card_offer_raise_description": "Dem Gegner ein Angebot machen",
     "card_offer_holiday_description": "Über die Urlaubstage verhandeln",
@@ -47,6 +51,7 @@ const dictionary = {
 	"card_attack_9_description": "Gezielt Abteilungen bestreiken um Umsätze zu drosseln",
 	"card_attack_10_description": "Alle Gewerkschafsmitglieder legen die Arbeit nieder",
 	"card_attack_11_description": "Streik in anderer Branche durchführen",
+	"card_negotiation_description": "Neue Verhandlung einleiten",
     "stat_moral": "Moral",
     "stat_wealth": "Finanzen",
     "stat_reputation": "Ansehen",

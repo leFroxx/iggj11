@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {
     StartScreen,
     MatchGoals,
-    MatchNegotiation
+    Match
 } from '.';
 import { appActions } from '../actions';
 import { ProgressBar } from '../components';
@@ -52,7 +52,7 @@ function mapDispatchToProps(dispatch){
                 const amountOfMatchGoalCalls = viewHistory.filter(v => v == MatchGoals.id).length;
                 const eachPlayerHadAMatchGoalCall = amountOfMatchGoalCalls >= playerTypes.length
                 if (eachPlayerHadAMatchGoalCall) {
-                    return appActions.changeView(dispatch)(MatchNegotiation.id);
+                    return appActions.changeView(dispatch)(Match.id);
                 } else {
                     return appActions.changeView(dispatch)(MatchGoals.id);
                 }

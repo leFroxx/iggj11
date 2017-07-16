@@ -48,10 +48,18 @@ export const setNextPlayerActive = (dispatch) => {
             }
             const playerType = playerTypes[nextPlayerIndex];
 
-            console.log("currentlyActivePlayer");
-            console.log(currentlyActivePlayer);
-
             return setActivePlayer(dispatch)(playerType);
         };
     });
+}
+
+export const changeActivePhase = (dispatch) => {
+    return (phase) => {
+        dispatch({
+            type: 'APP_SET_ACTIVE_PHASE',
+            data: {
+                phase
+            }
+        });
+    }
 }

@@ -6,7 +6,8 @@ const defaultState = {
     viewHistory: [StartScreen.id],
     activePlayer: null,
     displayedCard: null,
-    cardHistory: []
+    cardHistory: [],
+    activePhase: "negotiation"
 };
 export default function (state = defaultState, action) {
     switch (action.type) {
@@ -34,6 +35,15 @@ export default function (state = defaultState, action) {
             return {
                 ...state,
                 cardHistory: state.cardHistory.concat(displayedCard),
+            }
+        }
+        case 'APP_SET_ACTIVE_PHASE':
+        {
+            console.log(action);
+            return {
+                ...state,
+                activePhase: action.data.phase,
+                cardHistory: []
             }
         }
     }

@@ -39,6 +39,8 @@ export default class Player {
     }
 
     getUsableCards(phaseType) {
+        console.log("phase type");
+        console.log(phaseType);
         let usableCards = [];
         switch (phaseType) {
             case "negotiation":

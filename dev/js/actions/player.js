@@ -6,8 +6,6 @@ export const initPlayers = (dispatch) => {
         const boss = new Player("boss", goalsMetric.goalsBoss);
         const worker = new Player("worker", goalsMetric.goalsWorker);
 
-        console.log("init players");
-
         return dispatch({
             type: 'PLAYERS_INIT',
             data: {
