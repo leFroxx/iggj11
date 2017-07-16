@@ -1,12 +1,19 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
+import CardModel from '../models/Card';
+import CardContent from './CardContent';
+
 import { appActions } from '../actions';
 
 
 class Card extends Component {
     render() {
-        const { category, title, icon } = this.props;
+        const { type } = this.props;
+
+        const model = new CardModel(type);
+        const category = model.getCategory();
+        const title = model.getTitle();
 
         return (
             <div className={`card ${category}`}>
@@ -18,10 +25,9 @@ class Card extends Component {
                 </div>
                 <div className={`circle ${category}`}></div>
                 <div className="content">
-                    {/* <CardContent /> */}
+                    <CardContent model={model}/>
                 </div>
                 <div className="icon">
-                    {icon}
                 </div>
             </div>
         )
