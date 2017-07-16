@@ -1,3 +1,13 @@
+export const playDisplayedCard = (dispatch) => {
+    return () => {
+        dispatch({
+            type: "CARD_PLAY_DISPLAYED_CARD",
+            data: {
+            }
+        });
+    }
+}
+
 const attack = (damagingPlayer, damagedPlayer, damage, weaknesses) => {
     return {
         type: "CARD_ATTACK",

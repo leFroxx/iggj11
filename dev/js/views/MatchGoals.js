@@ -14,7 +14,7 @@ class MatchGoals extends Component {
         // this.props.setNextPlayerActive();
     }
     render() {
-        const { gotoStart, gotoNextView, statType, progress } = this.props;
+        const { gotoStart, gotoNextView, playerType, statType, progress } = this.props;
 
         const { statMaxValue, statHandicapedValue } = config;
         const handicapValue = statMaxValue - statHandicapedValue;
@@ -26,11 +26,19 @@ class MatchGoals extends Component {
         return (
             <div>
                 <h1>Match Goals</h1>
-                <ul className="goal-list">
-                    <li>1. Ziel</li>
-                    <li>2. Ziel</li>
-                    <li>3. Ziel</li>
-                </ul>
+                {playerType != "boss" ?
+                    <ul className="goal-list">
+                        <li>5% Lohn</li>
+                        <li>2 Urlaubstage</li>
+                        <li>10% Bonus</li>
+                    </ul>
+                :
+                    <ul className="goal-list">
+                        <li>-2% Lohn</li>
+                        <li>-3 Urlaubstage</li>
+                        <li>-12% Bonus</li>
+                    </ul>
+                }
                 <div className="handicap">
                     <h2 className="subheadline">Handicap</h2>
                     {statName ?
@@ -56,6 +64,7 @@ function mapStateToProps(state) {
     const progress = statType != null ? state.players[playerType].stats[statType] : null;
 
     return {
+        playerType,
         statType,
         progress
     };

@@ -25,8 +25,10 @@ class PlayerChange extends Component {
                 <h1>
                     <span className={activePlayer}>{activePlayerName}</span> ist am Zug
                 </h1>
-                <button onClick={gotoNextView}>Weiter</button>
-                <button onClick={gotoStart}>Zurück</button>
+                <div className="buttons">
+                    <button onClick={gotoNextView}>Weiter</button>
+                    <button onClick={gotoStart}>Zurück</button>
+                </div>
             </div>
         )
     }
