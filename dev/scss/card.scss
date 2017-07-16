@@ -1,3 +1,5 @@
+@import 'card-content';
+
 .card{
     width: 256px;
     height: 368px;
@@ -107,6 +109,8 @@
         height: 186px;
         background: white;
         border-radius: 3px;
+        display: flex;
+        padding: 12px;
     }
 
     .icon{
